@@ -33,3 +33,6 @@ generated-assets
 error-schema.log
 .error-syntax.log
 error-syntax.log
+
+# cocalc
+*.term
