@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<section xml:id="E3" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Solving Linear Systems (E3)</title>
+<section xml:id="LE3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Solving Linear Systems (LE3)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/03.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 <activity tbil-time='10'>
     <statement>
         <p>

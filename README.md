@@ -1,3 +1,8 @@
+# TBIL 2021 Edition
+
+This version is hosted at
+<https://stevenclontz.github.io/linear-algebra-tbil-2021/>. Original README below.
+
 # Linear Algebra for Team-Based Inquiry Learning
 
 Materials for teaching linear algebra using
