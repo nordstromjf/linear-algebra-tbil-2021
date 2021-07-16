@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
   <docinfo>
+  <initialism>TBIL-LA</initialism>
     <macros>
 \newcommand{\circledNumber}[1]{\boxed{#1}}
 \newcommand{\IR}{\mathbb{R}}

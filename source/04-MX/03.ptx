@@ -139,6 +139,64 @@ by row reducing the matrix <m>[A\,|\,I]</m> at once.
 
 <sage language="octave">
 </sage>
+
+<activity tbil-time='5'>
+    <statement>
+        <p>
+Is the matrix <m>\left[\begin{array}{ccc} 2 &amp; 3 &amp; 1 \\ -1 &amp; -4 &amp; 2 \\ 0 &amp; -5 &amp; 5 \end{array}\right]</m> invertible? Give a reason for your answer.
+        </p>
+    </statement>
+</activity>
+<sage language="octave">
+</sage>
+
+<observation>
+    <statement>
+    <p>
+    An <m>n\times n</m> matrix <m>A</m> is invertible if and only if <m>\RREF(A) = I_n</m>.
+    </p>
+    </statement>
+</observation>
+
+<activity tbil-time='10'>
+    <introduction>
+        <p>
+  Let <m>T:\IR^2\to\IR^2</m> be the bijective linear map defined by
+  <m>T\left(\left[\begin{array}{c}x\\y\end{array}\right]\right)=\left[\begin{array}{c} 2x -3y \\ -3x + 5y\end{array}\right]</m>,
+  with the inverse map
+  <m>T^{-1}\left(\left[\begin{array}{c}x\\y\end{array}\right]\right)=\left[\begin{array}{c} 5x+ 3y \\ 3x + 2y\end{array}\right]</m>.
+        </p>
+    </introduction>
+  <task>
+      <p>
+    Compute <m>(T^{-1}\circ T)\left(\left[\begin{array}{c}-2\\1\end{array}\right]\right)</m>.
+      </p>
+  </task>
+  <task>
+      <p>
+    If <m>A</m> is the standard matrix for <m>T</m> and <m>A^{-1}</m> is the
+    standard matrix for <m>T^{-1}</m>, find the <m>2\times 2</m> matrix 
+    <me>A^{-1}A=\left[\begin{array}{ccc}\unknown&amp;\unknown\\\unknown&amp;\unknown\end{array}\right].</me>
+      </p>
+  </task>
+</activity>
+
+<observation>
+    <statement>
+        <p>
+  <m>T^{-1}\circ T=T\circ T^{-1}</m> is the identity map for any bijective
+  linear transformation <m>T</m>. Therefore
+  <m>A^{-1}A=AA^{-1}</m> equals the identity matrix <m>I</m> for any invertible matrix
+  <m>A</m>.
+        </p>
+    </statement>
+</observation>
+
+
+
+
+
+
     <subsection>
         <title>Videos</title>
     <figure>
@@ -146,6 +204,12 @@ by row reducing the matrix <m>[A\,|\,I]</m> at once.
 			<track kind="subtitles" label="US English" xml:lang="en" source="videos/M3-captions.vtt" default=""/>
 		</video>
         <caption>Video example: Invertible matrices</caption>
+    </figure>
+    <figure>
+		<video xml:id="video-M4" href="https://southalabama.hosted.panopto.com/Panopto/Podcast/Social/015fac76-248c-4a3b-a622-ab81013b925b.mp4?mediaTargetType=videoPodcast">
+			<track kind="subtitles" label="US English" xml:lang="en" source="videos/M4-captions.vtt" default=""/>
+		</video>
+        <caption>Video example: Finding the inverse of a matrix</caption>
     </figure>
     </subsection>
 

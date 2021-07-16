@@ -1,37 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
     <xi:include href="meta/docinfo.ptx"/>
-  <book xml:id="linear-algebra-for-team-based-inquiry-learning">
-    <title>Linear Algebra for Team-Based Inquiry Learning</title>
-      <subtitle>TBIL Institute 2021 Edition</subtitle>
+    <book xml:id="linear-algebra-for-team-based-inquiry-learning">
+        <title>Linear Algebra for Team-Based Inquiry Learning</title>
+        <subtitle>Fall 2021 Development Edition</subtitle>
 
+        <xi:include href="meta/frontmatter.ptx"/>
 
-    <xi:include href="meta/frontmatter.ptx"/>
+        <xi:include href="01-LE/main.ptx"/>
+        <xi:include href="02-VS/main.ptx"/>
+        <xi:include href="03-AT/main.ptx"/>
+        <xi:include href="04-MX/main.ptx"/>
+        <xi:include href="05-GT/main.ptx"/>
+        <xi:include href="06-ON/main.ptx"/>
 
-    <xi:include href="01-LE/main.ptx"/>
-    <xi:include href="02-VS/main.ptx"/>
-    <xi:include href="03-AT/main.ptx"/>
-    <xi:include href="04-MX/main.ptx"/>
-    <xi:include href="05-GT/main.ptx"/>
-    <xi:include href="06-ON/main.ptx"/>
+        <xi:include href="meta/backmatter.ptx"/>
 
-    <backmatter xml:id="backmatter">
-  <title>Back Matter</title>
-
-        <xi:include href="applications/main.ptx"/>
-        <appendix>
-            <title>Appendix</title>
-            <xi:include href="meta/sample-exercises.ptx"/>
-            <xi:include href="meta/definitions.ptx"/>
-        </appendix>
-
-  <colophon>
-    <p>
-      This book was authored in <pretext />, and is the first book of the NSF-funded
-      <url href="https://sites.google.com/southalabama.edu/tbil">TBIL Resource Library</url>.
-    </p>
-  </colophon>
-</backmatter>
-
-  </book>
+    </book>
 </pretext>
