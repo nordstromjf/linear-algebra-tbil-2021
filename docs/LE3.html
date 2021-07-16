@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-16T15:38:16Z       *-->
+<!--*       on 2021-07-16T16:16:42Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -153,7 +153,7 @@
 <div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
 <nav id="toc"><ul>
 <li class="link frontmatter">
-<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="slideshow-link.html" data-scroll="slideshow-link">Slideshow</a></li></ul>
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="colophon.html" data-scroll="colophon">Colophon</a></li></ul>
 </li>
 <li class="link">
 <a href="LE.html" data-scroll="LE"><span class="codenumber">1</span> <span class="title">Systems of Linear Equations (LE)</span></a><ul>
@@ -185,10 +185,11 @@
 </li>
 <li class="link">
 <a href="MX.html" data-scroll="MX"><span class="codenumber">4</span> <span class="title">Matrices (MX)</span></a><ul>
-<li><a href="M1.html" data-scroll="M1">Matrices and Multiplication (M1)</a></li>
+<li><a href="MX1.html" data-scroll="MX1">Matrices and Multiplication (MX1)</a></li>
 <li><a href="MX2.html" data-scroll="MX2">Row Operations as Matrix Multiplication (MX2)</a></li>
 <li><a href="MX3.html" data-scroll="MX3">The Inverse of a Matrix (MX3)</a></li>
 <li><a href="MX4.html" data-scroll="MX4">Invertible Matrices (MX4)</a></li>
+<li><a href="MX5.html" data-scroll="MX5">NEW Solving Systems with Matrix Inverses (MX5)</a></li>
 </ul>
 </li>
 <li class="link">
@@ -197,6 +198,15 @@
 <li><a href="GT2.html" data-scroll="GT2">Computing Determinants (GT2)</a></li>
 <li><a href="GT3.html" data-scroll="GT3">Eigenvalues and Characteristic Polynomials (GT3)</a></li>
 <li><a href="GT4.html" data-scroll="GT4">Eigenvectors and Eigenspaces (GT4)</a></li>
+<li><a href="GT5.html" data-scroll="GT5">NEW Diagonalization (GT5)</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ON.html" data-scroll="ON"><span class="codenumber">6</span> <span class="title">NEW Orthonormality (ON)</span></a><ul>
+<li><a href="ON1.html" data-scroll="ON1">Dot Products (ON1)</a></li>
+<li><a href="ON2.html" data-scroll="ON2">Projections (ON2)</a></li>
+<li><a href="ON3.html" data-scroll="ON3">Orthgonality (ON3)</a></li>
+<li><a href="ON4.html" data-scroll="ON4">Orthonormal Bases (ON4)</a></li>
 </ul>
 </li>
 <li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Back Matter</span></a></li>
@@ -213,33 +223,33 @@
 <li><a href="list-of-definitions.html" data-scroll="list-of-definitions">Definitions</a></li>
 </ul>
 </li>
-<li class="link"><a href="colophon-1.html" data-scroll="colophon-1"><span class="title">Colophon</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2"><span class="title">Colophon</span></a></li>
 </ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
 </div></div>
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="LE3"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.3</span> <span class="title">Solving Linear Systems (LE3)</span>
 </h2>
 <article class="objectives goal-like" id="objectives-4"><h6 class="heading"><span class="type">Learning Outcomes</span></h6>
-<ul class="disc"><li id="li-47"><p id="p-89">Compute the solution set for a system of linear equations or a vector equation.</p></li></ul></article><article class="activity project-like" id="activity-15"><h6 class="heading">
+<ul class="disc"><li id="li-47"><p id="p-88">Compute the solution set for a system of linear equations or a vector equation.</p></li></ul></article><article class="activity project-like" id="activity-15"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="period">.</span>
 </h6>
-<p id="p-90">Free browser-based technologies for mathematical computation are available online.</p>
+<p id="p-89">Free browser-based technologies for mathematical computation are available online.</p>
 <ul class="disc">
-<li id="li-48"><p id="p-91">Go to <a class="external" href="https://sagecell.sagemath.org/" target="_blank"><code class="code-inline tex2jax_ignore">https://sagecell.sagemath.org/</code></a>.</p></li>
+<li id="li-48"><p id="p-90">Go to <a class="external" href="https://sagecell.sagemath.org/" target="_blank"><code class="code-inline tex2jax_ignore">https://sagecell.sagemath.org/</code></a>.</p></li>
 <li id="li-49">In the dropdown on the right, you can select a number of different languages. Select "Octave" for the Matlab-compatible syntax used by this text.</li>
-<li id="li-50"><p id="p-92">Type <code class="code-inline tex2jax_ignore">rref([1,3,2;2,5,7])</code> and then press the <kbd class="kbdkey">Evaluate</kbd> button to compute the \(\RREF\) of \(\left[\begin{array}{ccc} 1 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 7 \end{array}\right]\text{.}\)</p></li>
+<li id="li-50"><p id="p-91">Type <code class="code-inline tex2jax_ignore">rref([1,3,2;2,5,7])</code> and then press the <kbd class="kbdkey">Evaluate</kbd> button to compute the \(\RREF\) of \(\left[\begin{array}{ccc} 1 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 7 \end{array}\right]\text{.}\)</p></li>
 </ul>
-<p id="p-93">Since the vertical bar in an augmented matrix does not affect row operations, the \(\RREF\) of \(\left[\begin{array}{cc|c} 1 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 7 \end{array}\right]\) may be computed in the same way.</p></article><article class="activity project-like" id="activity-16"><h6 class="heading">
+<p id="p-92">Since the vertical bar in an augmented matrix does not affect row operations, the \(\RREF\) of \(\left[\begin{array}{cc|c} 1 &amp; 3 &amp; 2 \\ 2 &amp; 5 &amp; 7 \end{array}\right]\) may be computed in the same way.</p></article><article class="activity project-like" id="activity-16"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="period">.</span>
 </h6>
-<p id="p-94">In the HTML version of this text, code cells are often embedded for your convenience when RREFs need to be computed.</p>
-<p id="p-95">Try this out to compute \(\RREF\left[\begin{array}{cc|c} 2 &amp; 3 &amp; 1 \\ 3 &amp; 0 &amp; 6 \end{array}\right]\text{.}\)</p></article><div class="sagecell-octave" id="sage-1"><script type="text/x-sage">rref([2,3,1;3,0,6])
+<p id="p-93">In the HTML version of this text, code cells are often embedded for your convenience when RREFs need to be computed.</p>
+<p id="p-94">Try this out to compute \(\RREF\left[\begin{array}{cc|c} 2 &amp; 3 &amp; 1 \\ 3 &amp; 0 &amp; 6 \end{array}\right]\text{.}\)</p></article><div class="sagecell-octave" id="sage-1"><script type="text/x-sage">rref([2,3,1;3,0,6])
 </script></div>
 <article class="activity project-like" id="activity-17"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-5">
-<p id="p-96">Consider the following system of equations.</p>
+<p id="p-95">Consider the following system of equations.</p>
 <div class="displaymath">
 \begin{alignat*}{4}
 3x_1 &amp;\,-\,&amp; 2x_2 &amp;\,+\,&amp; 13x_3 &amp;\,=\,&amp; 6\\
@@ -249,7 +259,7 @@
 </div>
 </div>
 <article class="task exercise-like" id="task-5"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-97">Convert this to an augmented matrix and use technology to compute its reduced row echelon form:</p>
+<p id="p-96">Convert this to an augmented matrix and use technology to compute its reduced row echelon form:</p>
 <div class="displaymath">
 \begin{equation*}
 \RREF
@@ -266,13 +276,13 @@
 \end{array}\right]
 \end{equation*}
 </div></article><article class="task exercise-like" id="task-6"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-98">Use the \(\RREF\) matrix to write a linear system equivalent to the original system. Then find its solution set.</p></article></article><div class="sagecell-octave" id="sage-2"><script type="text/x-sage">rref([3,-2,13,6;2,-2,10,2;-1,3,-6,11])
+<p id="p-97">Use the \(\RREF\) matrix to write a linear system equivalent to the original system. Then find its solution set.</p></article></article><div class="sagecell-octave" id="sage-2"><script type="text/x-sage">rref([3,-2,13,6;2,-2,10,2;-1,3,-6,11])
 </script></div>
 <article class="activity project-like" id="activity-18"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-6">
-<p id="p-99">Consider the vector equation</p>
+<p id="p-98">Consider the vector equation</p>
 <div class="displaymath">
 \begin{equation*}
 x_1 \left[\begin{array}{c} 3 \\ 2\\ -1 \end{array}\right]
@@ -283,7 +293,7 @@ x_1 \left[\begin{array}{c} 3 \\ 2\\ -1 \end{array}\right]
 </div>
 </div>
 <article class="task exercise-like" id="task-7"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-100">Convert this to an augmented matrix and use technology to compute its reduced row echelon form:</p>
+<p id="p-99">Convert this to an augmented matrix and use technology to compute its reduced row echelon form:</p>
 <div class="displaymath">
 \begin{equation*}
 \RREF
@@ -300,13 +310,13 @@ x_1 \left[\begin{array}{c} 3 \\ 2\\ -1 \end{array}\right]
 \end{array}\right]
 \end{equation*}
 </div></article><article class="task exercise-like" id="task-8"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-101">Use the \(\RREF\) matrix to write a linear system equivalent to the original system. Then find its solution set.</p></article></article><div class="sagecell-octave" id="sage-3"><script type="text/x-sage">rref([3,-2,13,6;2,-2,10,2;-1,0,-3,1])
+<p id="p-100">Use the \(\RREF\) matrix to write a linear system equivalent to the original system. Then find its solution set.</p></article></article><div class="sagecell-octave" id="sage-3"><script type="text/x-sage">rref([3,-2,13,6;2,-2,10,2;-1,0,-3,1])
 </script></div>
 <article class="activity project-like" id="activity-19"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.5</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-7">
-<p id="p-102">Consider the following linear system.</p>
+<p id="p-101">Consider the following linear system.</p>
 <div class="displaymath">
 \begin{alignat*}{4}
 x_1 &amp;+ 2x_2 &amp;+ 3x_3 &amp;= 1\\
@@ -315,13 +325,13 @@ x_1 &amp;+ 2x_2 &amp;+ 3x_3 &amp;= 1\\
 </div>
 </div>
 <article class="task exercise-like" id="task-9"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-103">Find its corresponding augmented matrix \(A\) and use technology to find \(\RREF(A)\text{.}\)</p></article><article class="task exercise-like" id="task-10"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-104">How many solutions do these linear systems have?</p></article></article><div class="sagecell-octave" id="sage-4"><script type="text/x-sage"></script></div>
+<p id="p-102">Find its corresponding augmented matrix \(A\) and use technology to find \(\RREF(A)\text{.}\)</p></article><article class="task exercise-like" id="task-10"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-103">How many solutions do these linear systems have?</p></article></article><div class="sagecell-octave" id="sage-4"><script type="text/x-sage"></script></div>
 <article class="activity project-like" id="activity-20"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.6</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-8">
-<p id="p-105">Consider the simple linear system equivalent to the system from the previous activity:</p>
+<p id="p-104">Consider the simple linear system equivalent to the system from the previous activity:</p>
 <div class="displaymath">
 \begin{alignat*}{3}
 x_1 &amp;+ 2x_2 &amp; &amp;= 4\\
@@ -330,28 +340,28 @@ x_1 &amp;+ 2x_2 &amp; &amp;= 4\\
 </div>
 </div>
 <article class="task exercise-like" id="task-11"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-106">Let \(x_1=a\) and write the solution set in the form \(\setBuilder
+<p id="p-105">Let \(x_1=a\) and write the solution set in the form \(\setBuilder
 {
 \left[\begin{array}{c} a \\ \unknown \\ \unknown \end{array}\right]
 }{
 a \in \IR
 }
 \text{.}\)</p></article><article class="task exercise-like" id="task-12"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-107">Let \(x_2=b\) and write the solution set in the form \(\setBuilder
+<p id="p-106">Let \(x_2=b\) and write the solution set in the form \(\setBuilder
 {
 \left[\begin{array}{c} \unknown \\ b \\ \unknown \end{array}\right]
 }{
 b \in \IR
 }
 \text{.}\)</p></article><article class="task exercise-like" id="task-13"><h6 class="heading"><span class="codenumber">(c)</span></h6>
-<p id="p-108">Which of these was easier?  What features of the RREF matrix \(\left[\begin{array}{ccc|c}
+<p id="p-107">Which of these was easier?  What features of the RREF matrix \(\left[\begin{array}{ccc|c}
 \circledNumber{1} &amp; 2 &amp; 0 &amp; 4 \\
 0 &amp; 0 &amp; \circledNumber{1} &amp; -1
 \end{array}\right]\) caused this?</p></article></article><article class="definition definition-like" id="definition-8"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.3.7</span><span class="period">.</span>
 </h6>
-<p id="p-109">Recall that the pivots of a matrix in \(\RREF\) form are the leading \(1\)s in each non-zero row.</p>
-<p id="p-110">The pivot columns in an augmented matrix correspond to the <dfn class="terminology">bound variables</dfn> in the system of equations (\(x_1,x_3\) below). The remaining variables are called <dfn class="terminology">free variables</dfn> (\(x_2\) below).</p>
+<p id="p-108">Recall that the pivots of a matrix in \(\RREF\) form are the leading \(1\)s in each non-zero row.</p>
+<p id="p-109">The pivot columns in an augmented matrix correspond to the <dfn class="terminology">bound variables</dfn> in the system of equations (\(x_1,x_3\) below). The remaining variables are called <dfn class="terminology">free variables</dfn> (\(x_2\) below).</p>
 <div class="displaymath">
 \begin{equation*}
 \left[\begin{array}{ccc|c}
@@ -360,10 +370,10 @@ b \in \IR
 \end{array}\right]
 \end{equation*}
 </div>
-<p id="p-111">To efficiently solve a system in RREF form, assign letters to the free variables, and then solve for the bound variables.</p></article><article class="activity project-like" id="activity-21"><h6 class="heading">
+<p id="p-110">To efficiently solve a system in RREF form, assign letters to the free variables, and then solve for the bound variables.</p></article><article class="activity project-like" id="activity-21"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">1.3.8</span><span class="period">.</span>
 </h6>
-<p id="p-112">Find the solution set for the system</p>
+<p id="p-111">Find the solution set for the system</p>
 <div class="displaymath">
 \begin{alignat*}{6}
 2x_1&amp;\,-\,&amp;2x_2&amp;\,-\,&amp;6x_3&amp;\,+\,&amp;x_4&amp;\,-\,&amp;x_5&amp;\,=\,&amp;3 \\
@@ -375,7 +385,7 @@ x_1&amp;\,-\,&amp;2x_2&amp;\,-\,&amp;x_3&amp;\,+\,&amp;x_4&amp;\,+\,&amp;x_5 &am
 <article class="observation remark-like" id="observation-2"><h6 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">1.3.9</span><span class="period">.</span>
 </h6>
-<p id="p-113">The solution set to the system</p>
+<p id="p-112">The solution set to the system</p>
 <div class="displaymath">
 \begin{alignat*}{6}
 2x_1&amp;\,-\,&amp;2x_2&amp;\,-\,&amp;6x_3&amp;\,+\,&amp;x_4&amp;\,-\,&amp;x_5&amp;\,=\,&amp;3 \\
@@ -402,16 +412,16 @@ a,b\in \IR
 </div></article><article class="remark remark-like" id="remark-6"><h6 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.3.10</span><span class="period">.</span>
 </h6>
-<p id="p-114">Don't forget to correctly express the solution set of a linear system. Systems with zero or one solutions may be written by listing their elements, while systems with infinitely-many solutions may be written using set-builder notation.</p>
+<p id="p-113">Don't forget to correctly express the solution set of a linear system. Systems with zero or one solutions may be written by listing their elements, while systems with infinitely-many solutions may be written using set-builder notation.</p>
 <ul class="disc">
-<li id="li-51"><p id="p-115"><em class="emphasis">Consistent with one solution</em>: e.g. \(\setList{ \left[\begin{array}{c}1\\2\\3\end{array}\right] }\)</p></li>
-<li id="li-52"><p id="p-116"><em class="emphasis">Consistent with infinitely-many solutions</em>: e.g. \(\setBuilder
+<li id="li-51"><p id="p-114"><em class="emphasis">Consistent with one solution</em>: e.g. \(\setList{ \left[\begin{array}{c}1\\2\\3\end{array}\right] }\)</p></li>
+<li id="li-52"><p id="p-115"><em class="emphasis">Consistent with infinitely-many solutions</em>: e.g. \(\setBuilder
 {
 \left[\begin{array}{c}1\\2-3a\\a\end{array}\right]
 }{
 a\in\IR
 }\)</p></li>
-<li id="li-53"><p id="p-117"><em class="emphasis">Inconsistent</em>: \(\emptyset\) or \(\{\}\)</p></li>
+<li id="li-53"><p id="p-116"><em class="emphasis">Inconsistent</em>: \(\emptyset\) or \(\{\}\)</p></li>
 </ul></article><section class="subsection" id="subsection-3"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.3.1</span> <span class="title">Videos</span>
 </h3>
@@ -419,7 +429,7 @@ a\in\IR
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.3.11<span class="period">.</span></span><span class="space"> </span>Video example: Solving a system of linear equations</figcaption></figure></section><section class="exercises" id="exercises-3"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">1.3.2</span> <span class="title">Exercises</span>
 </h3>
-<p id="p-118"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/E3/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
+<p id="p-117"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/E3/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
 </div>
 </body>
 </html>
