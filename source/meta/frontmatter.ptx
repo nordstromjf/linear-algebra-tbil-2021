@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <titlepage>
+        <author>
+            <personname>Steven Clontz</personname>
+            <department>Department of Mathematics and Statistics</department>
+            <institution>University of South Alabama</institution>
+            <email>steven.clontz@gmail.com</email>
+        </author>
+        <author>
+            <personname>Drew Lewis</personname>
+            <department>Department of Mathematics and Statistics</department>
+            <institution>University of South Alabama</institution>
+            <email>drewlewis@southalabama.edu</email>
+        </author>
+  <credit>
+    <title>Contributing Authors</title>
+    <author>
+      <personname>TODO</personname>
+      <department>TODO</department>
+      <institution>TODO</institution>
+      <email>todo@todo.edu</email>
+    </author>
+    <author>
+      <personname>TODO</personname>
+      <department>TODO</department>
+      <institution>TODO</institution>
+      <email>todo@todo.edu</email>
+    </author>
+  </credit>
+        <date><today /></date>
+    </titlepage>
+<!--    <xi:include href="./slideshow.ptx"/>-->
+  <colophon xml:id="colophon">
+    <website>
+        <name>
+            Transforming Lower Division Undergraduate Mathematics Through Team-Based Inquiry Learning
+            <c>https://sites.google.com/southalabama.edu/tbil/</c>
+        </name>
+        <address>https://sites.google.com/southalabama.edu/tbil/</address>
+    </website>
+
+    <xi:include href="./copyright.ptx" />
+
+  </colophon>
+      </frontmatter>
