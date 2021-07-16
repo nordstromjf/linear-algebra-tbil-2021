@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<section xml:id="V8" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Polynomial and Matrix Spaces (V8)</title>
+<section xml:id="VS8" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Polynomial and Matrix Spaces (VS8)</title>
 
 <fact>
     <statement>

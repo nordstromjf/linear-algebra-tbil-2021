@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<chapter xml:id="G" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Geometric Properties of Linear Maps (G)</title>
+<chapter xml:id="MX" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Matrices (MX)</title>
     <objectives>
         <ul>
             <xi:include href="outcomes.ptx"/>

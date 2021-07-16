@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<chapter xml:id="A" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Algebraic Properties of Linear Maps (A)</title>
+<chapter xml:id="VS" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Vector Spaces (VS)</title>
     <objectives>
         <ul>
             <xi:include href="outcomes.ptx"/>
@@ -10,4 +10,9 @@
     <xi:include href="02.ptx"/>
     <xi:include href="03.ptx"/>
     <xi:include href="04.ptx"/>
+    <xi:include href="05.ptx"/>
+    <xi:include href="06.ptx"/>
+    <xi:include href="07.ptx"/>
+    <xi:include href="08.ptx"/>
+    <xi:include href="09.ptx"/>
 </chapter>
