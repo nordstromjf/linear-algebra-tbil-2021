@@ -254,17 +254,11 @@ The space of <m>m \times n</m> <term>matrices</term>
 </remark>
 
 <activity tbil-time='20'>
-    <introduction>
+    <statement>
     <p>
-  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
-  <me>
-    (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
-      \hspace{3em}
-    c\odot (x_1,y_1)=(cx_1,y_1^c)
-  </me>.
+  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m>.
     </p>
-    </introduction>
-    <task><p>Which of the following vectors is not in <m>V</m>?</p>
+   <p>Which of the following vectors is not in <m>V</m>?               </p>
        <ol label="a">
         <li>
             <p>
@@ -287,8 +281,19 @@ The space of <m>m \times n</m> <term>matrices</term>
             </p>
         </li>
       </ol>
-  </task>
-    <task><p>Let <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m>. Using the operations defined for <m>V</m>, which of the following is <m>\vec u+\vec v</m>?</p>
+    </statement>
+  </activity>
+  <activity>
+    <statement>
+    <p>
+  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
+  <me>
+    (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
+      \hspace{3em}
+    c\odot (x_1,y_1)=(cx_1,y_1^c)
+  </me>.
+    </p>
+    <p>Let <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m>.             Using the operations defined for <m>V</m>, which of the following is           <m>\vec u+\vec v</m>?</p>
       <ol label="a">
         <li>
             <p>
@@ -311,14 +316,36 @@ The space of <m>m \times n</m> <term>matrices</term>
             </p>
         </li>
       </ol>
-  </task>
-  <task>
+    </statement>
+ </activity>
+ <activity>
+     <statement>
+    <p>
+  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
+  <me>
+    (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
+      \hspace{3em}
+    c\odot (x_1,y_1)=(cx_1,y_1^c)
+  </me>.
+         </p>
       <p>
 Let <m>a, b</m> be scalar numbers. Show that <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m> and  satisfy each side of the distributive property (separately):
   <me>(a+b)\odot (x_1,y_1)=\left(a\odot (x_1,y_1)\right)\oplus \left(b\odot (x_1,y_1)\right).</me>
  
       </p>
-  </task>
+  </statement>
+</activity>     
+<activity>
+    <introduction>
+    <p>
+  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
+  <me>
+    (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
+      \hspace{3em}
+    c\odot (x_1,y_1)=(cx_1,y_1^c)
+  </me>.
+    </p>
+    </introduction>
   <task>
       <p>
   Show that the set <m>V</m> satisfies the distributive property
@@ -327,7 +354,6 @@ Let <m>a, b</m> be scalar numbers. Show that <m>\vec u=(1, e)</m> and <m>\vec v=
   expression.
       </p>
   </task>
-  <task></task>
   <task><!-- optional -->
       <p>
   Show that <m>V</m> contains an additive identity element satisfying
