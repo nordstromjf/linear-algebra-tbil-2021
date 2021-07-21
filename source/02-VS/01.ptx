@@ -264,14 +264,70 @@ The space of <m>m \times n</m> <term>matrices</term>
   </me>.
     </p>
     </introduction>
+    <task><p>Which of the following vectors is not in <m>V</m>?</p>
+       <ol label="a">
+        <li>
+            <p>
+            <m>(0, 0)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+            <m>(1, e)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+            <m>(0, 1)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+            <m>(\ln(2), 2)</m>
+            </p>
+        </li>
+      </ol>
+  </task>
+    <task><p>Let <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m>. Using the operations defined for <m>V</m>, which of the following is <m>\vec u+\vec v</m>?</p>
+      <ol label="a">
+        <li>
+            <p>
+            <m>(1+\ln(2), 2+e)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+            <m>(1+\ln(2), 2e)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+            <m>(\ln(2), 2+e)</m>
+            </p>
+        </li>
+        <li>
+            <p>
+            <m>(1+e, 2+\ln(2))</m>
+            </p>
+        </li>
+      </ol>
+  </task>
   <task>
       <p>
-  Show that <m>V</m> satisfies the distributive property
+Let <m>a, b</m> be scalar numbers. Show that <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m> and  satisfy each side of the distributive property (separately):
+  <me>(a+b)\odot (x_1,y_1)=\left(a\odot (x_1,y_1)\right)\oplus \left(b\odot (x_1,y_1)\right).</me>
+ 
+      </p>
+  </task>
+  <task>
+      <p>
+  Show that the set <m>V</m> satisfies the distributive property
   <me>(a+b)\odot (x_1,y_1)=\left(a\odot (x_1,y_1)\right)\oplus \left(b\odot (x_1,y_1)\right)</me>
   by simplifying both sides and verifying they are the same
   expression.
       </p>
   </task>
+  <task></task>
   <task><!-- optional -->
       <p>
   Show that <m>V</m> contains an additive identity element satisfying
