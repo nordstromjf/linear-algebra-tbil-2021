@@ -5,7 +5,7 @@
 <definition>
     <statement>
         <p>
-A <term>linear transformation</term> (also called a <term>linear map</term>)
+A <term>linear transformation</term> <idx>linear transformation</idx>(also called a <term>linear map</term>)
 is a map between vector spaces that preserves the vector space operations.
 More precisely, if <m>V</m> and <m>W</m> are vector spaces, a map
 <m>T:V\rightarrow W</m> is called a linear transformation if
@@ -76,7 +76,7 @@ Let <m>T : \IR^3 \rightarrow \IR^2</m> be given by
     </p>
 
     <p>
-To show that <m>T</m> is linear, we must verify
+To show that <m>T</m> is a linear transformation, we must verify that <m>T(\vec{v}+\vec{w}) = T(\vec{v})+T(\vec{w})</m> by computing 
 <me>
   T\left(
     \left[\begin{array}{c} x \\ y \\ z \end{array}\right] +
@@ -88,6 +88,7 @@ To show that <m>T</m> is linear, we must verify
   \right) =
   \left[\begin{array}{c} (x+u)-(z+w) \\ 3(y+v) \end{array}\right]
 </me>
+        and 
 <me>
   T\left(
     \left[\begin{array}{c} x \\ y \\ z \end{array}\right]
@@ -98,8 +99,8 @@ To show that <m>T</m> is linear, we must verify
   \left[\begin{array}{c} x-z \\ 3y \end{array}\right] +
   \left[\begin{array}{c} u-w \\ 3v \end{array}\right]=
   \left[\begin{array}{c} (x+u)-(z+w) \\ 3(y+v) \end{array}\right]
-</me>
-And also...
+</me>, 
+and we must verify that <m>T(c\vec{v}) = cT(\vec{v})</m> by computing
 <me>
   T\left(c\left[\begin{array}{c} x \\ y \\ z \end{array}\right] \right)
 =
@@ -112,7 +113,7 @@ And also...
   c\left[\begin{array}{c} x-z \\ 3y \end{array}\right]
 =
   \left[\begin{array}{c} cx-cz \\ 3cy \end{array}\right]
-</me>
+</me>.
     </p>
     <p>
 Therefore <m>T</m> is a linear transformation.
@@ -121,31 +122,31 @@ Therefore <m>T</m> is a linear transformation.
 
 <example>
     <p>
-Let <m>T : \IR^2 \rightarrow \IR^4</m> be given by
+Let <m>S : \IR^2 \rightarrow \IR^4</m> be given by
 <me>
-  T\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
+  S\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
 =
   \left[\begin{array}{c} x+y \\ x^2 \\ y+3 \\ y-2^x \end{array}\right]
 </me>
     </p>
     <p>
-To show that <m>T</m> is not linear, we only need to find one
+To show that <m>S</m> is <emph>not</emph> linear, we only need to find one
 counterexample.
 <me>
-  T\left(
+  S\left(
     \left[\begin{array}{c} 0 \\ 1 \end{array}\right] +
     \left[\begin{array}{c} 2 \\ 3 \end{array}\right]
   \right)
 =
-  T\left(
+  S\left(
     \left[\begin{array}{c} 2 \\ 4 \end{array}\right]
   \right) =
   \left[\begin{array}{c} 6 \\ 4 \\ 7 \\ 0 \end{array}\right]
 </me>
 <me>
-  T\left(
+  S\left(
     \left[\begin{array}{c} 0 \\ 1 \end{array}\right]
-  \right) + T\left(
+  \right) + S\left(
     \left[\begin{array}{c} 2 \\ 3\end{array}\right]
   \right)
 =
@@ -157,7 +158,7 @@ counterexample.
     </p>
     <p>
 Since the resulting vectors are different,
-<m>T</m> is not a linear transformation.
+<m>S</m> is not a linear transformation.
     </p>
 </example>
 
@@ -180,13 +181,13 @@ because <m>x-z</m> and <m>3y</m> are linear combinations of <m>x,y,z</m>:
 </me>
         </p>
         <p>
-But this map is not linear because <m>x^2</m>, <m>y+3</m>, and <m>y-2^x</m>
+But the map below is not linear because <m>x^2</m>, <m>y+3</m>, and <m>y-2^x</m>
 are not linear combinations (even though <m>x+y</m> is):
 <me>
-  T\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
+  S\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
 =
   \left[\begin{array}{c} x+y \\ x^2 \\ y+3 \\ y-2^x \end{array}\right]
-</me>
+</me>.
         </p>
     </statement>
 </fact>
@@ -194,20 +195,20 @@ are not linear combinations (even though <m>x+y</m> is):
 <activity tbil-time='5'>
     <statement>
         <p>
-  Recall the following rules from calculus, where <m>D:\P\to\P</m>
-  is the derivative map defined by <m>D(f(x))=f'(x)</m> for each
-  polynomial <m>f</m>.
+  Let <m>D:\P\to\P</m>
+  be the derivative map defined by <m>D(f(x))=f'(x)</m> for each
+  polynomial <m>f \in \P</m>. We recall from calculus that
         </p>
   <me>
     D(f+g)=f'(x)+g'(x)
-  </me>
+  </me>, and 
   <me>
     D(cf(x))=cf'(x)
-  </me>
+  </me>.
         <p>
-  What can we conclude from these rules?
+  Which of the following can we conclude from these calculus rules?
         </p>
-  <ol label="a">
+  <ol label="a.">
 <li>
     <p>
     <m>\P</m> is not a vector space
@@ -236,8 +237,7 @@ and <m>T: \P_4 \rightarrow \P_3</m> be defined by
 <me>S(f(x)) = 2f'(x)-f''(x) \hspace{3em} T(f(x)) = f'(x)+x^3</me>.
         </p>
         <p>
-Compute <m>S(x^4+x)</m>, <m>S(x^4)+S(x)</m>, <m>T(x^4+x)</m>, and <m>T(x^4)+T(x)</m>.
-Which of these maps is definitely not linear?
+Compute <m>S(x^4+x)</m>, <m>S(x^4)+S(x)</m>, <m>T(x^4+x)</m>, and <m>T(x^4)+T(x)</m>. Based on these computations, can you conclude that either <m>S</m> or <m>T</m> is definitely <emph>not</emph> a linear transformation? 
         </p>
     </statement>
 </activity>
@@ -246,12 +246,12 @@ Which of these maps is definitely not linear?
 <fact>
     <statement>
         <p>
-If <m>L:V\to W</m> is linear, then <m>L(\vec z)=L(0\vec v)=0L(\vec v)=\vec z</m>
+If <m>L:V\to W</m> is a linear transformation, then <m>L(\vec z)=L(0\vec v)=0L(\vec v)=\vec z</m>
 where <m>\vec z</m> is the additive identity of the vector spaces <m>V,W</m>.
         </p>
         <p>
 Put another way, an easy way to prove that a map like
-<m>T(f(x)) = f'(x)+x^3</m> can't be linear is because
+<m>T(f(x)) = f'(x)+x^3</m> can not be linear is to check that 
 <me>T(0)=\frac{d}{dx}[0]+x^3=0+x^3=x^3\not=0.</me>
         </p>
     </statement>

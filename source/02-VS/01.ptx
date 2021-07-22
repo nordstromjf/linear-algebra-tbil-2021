@@ -320,7 +320,7 @@ The space of <m>m \times n</m> <term>matrices</term>
  <activity>
      <introduction>
     <p>
-  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operation defined by
+  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
   <me>
     (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
       \hspace{3em}

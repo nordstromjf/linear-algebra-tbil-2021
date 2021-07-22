@@ -51,10 +51,37 @@ Given two <m>n</m>-dimensional vectors <m>\vec v</m> and <m>\vec w</m>, the <ter
     \vec v \cdot \vec w = \left[\begin{array}{c} v_1 \\ v_2 \\ v_3 \\ \vdots \\ v_n \end{array}\right] \cdot \left[\begin{array}{c} w_1 \\ w_2 \\ w_3 \\ \vdots \\ w_n \end{array}\right]
         = v_1 w_1 + v_2 w_2 + v_3 w_3 + \cdots + v_n w_n
     </me>
-The dot product combines two vectors and creates a scalar that gives us geometric information about the input vectors. If both vectors are the same, then <m>\vec v \dot \vec v</m> gives us the square of the length of <m>\vec v</m>.
+The dot product combines two vectors and creates a scalar that gives us geometric information about the input vectors. If both vectors are the same, then <m>\vec{v} \cdot \vec{v}</m> gives us the square of the length of <m>\vec{v}</m>.
     </definition>
-</subsection>
 
+
+    A whole bunch of stuff needs to go here. But here's another activity instead.
+    
+        <activity tbil-time="5">
+<introduction>
+<p>Given the linear transformation <m>S:\IR^2 \to \IR^2</m> whose standard matrix is 
+    <m>\left[\begin{array}{cc} 0 &amp; -1 \\ 1 &amp; 0 \end{array}\right]</m> 
+    and vector <m>\vec v = \left[\begin{array}{c} 3 \\ 4 \end{array}\right]</m>, 
+    </p></introduction>
+<ol>
+            <li>Graph <m>\vec v</m> and <m>S( \vec v )</m>.</li>
+    <li>For an unspecified vector <m>\vec w = \left[\begin{array}{c} w_1 \\ w_2 \end{array}\right]</m>, describe the relationship between <m>\vec w</m> and <m>S( \vec w )</m>.</li>
+            </ol>
+           </activity>
+
+    <activity tbil-time="5">
+        <introduction><p>Consider <m>\vec v = \left[\begin{array}{c} 3 \\ 4 \end{array}\right]</m>. </p>
+        </introduction>
+        <ol>
+        <li>What vector <m>\vec w = \left[\begin{array}{c} ? \\ ? \end{array}\right]</m> is the result of rotating <m>\vec v</m> by <m>90^{\circ}</m> counter-clockwise?</li>
+        <li>Find the dot product <m>\vec v \cdot \vec w</m>.</li>
+        <li>For an arbitrary vector <m>\vec x = \left[\begin{array}{c} x_1 \\ x_2 \end{array}\right]</m>, what vector <m>\vec y = \left[\begin{array}{c} ? \\ ? \end{array}\right]</m> is the result of rotating <m>\vec x</m> by <m>90^{\circ}</m> counter-clockwise? </li>
+        <li>Find the dot product <m>\vec x \cdot \vec y</m>.
+            </li>
+       <li>Suppose two vectors are perpendicular. What can you say about their dot product?</li>
+        </ol>
+    </activity>
+    </subsection>
     <subsection>
         <title>Videos</title>
 <!--    <figure>

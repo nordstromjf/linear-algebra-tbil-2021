@@ -6,7 +6,7 @@ from pathlib import Path
 
 # build HTML with diagrams as usual
 with working_directory("."):
-    Project().build("html",diagrams=True)
+    Project().build("html",diagrams=False)
 
 # rig up slide stuff
 XSLNS="{http://www.w3.org/1999/XSL/Transform}"
