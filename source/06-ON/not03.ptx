@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<section xml:id="ON4" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Orthonormal Bases (ON4)</title>
+<section xml:id="ON3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Orthogonal Vectors (ON3)</title>
     <objectives>
         <ul>
             <li>
-                <xi:include href="outcomes/04.ptx"/>
+                <xi:include href="outcomes/03.ptx"/>
             </li>
         </ul>
     </objectives>

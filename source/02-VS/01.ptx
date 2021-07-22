@@ -29,7 +29,7 @@ also hold for Euclidean vectors with multiple components:
 Consider each of the following properties of the real numbers
 <m>\IR^1</m>. Label each property as <em>valid</em> if the property also
 holds for two-dimensional Euclidean vectors 
-<m>\vec u,\vec v,\vec w\in\IR^2</m> and scalars <m>a,b\in\IR</m>,
+<m>\vec u,\vec v,\vec w\in\IR^2</m> and numbers <m>a,b\in\IR</m>,
 and <em>invalid</em> if it does not.
     </p>
 <ol>
@@ -46,7 +46,7 @@ and <em>invalid</em> if it does not.
 <li>
     <p>
     There exists some <m>\vec z</m>
-        where <m>\vec v+\vec z=\vec v</m>.
+        where <m>\vec u +\vec z =\vec v</m>.
     </p>
   </li>
 <li>
@@ -57,7 +57,7 @@ and <em>invalid</em> if it does not.
   </li>
 <li>
     <p>
-    If <m>\vec u\not=\vec v</m>, then <m>\frac{1}{2}(\vec u+\vec v)</m>
+        If <m>\vec u\not=\vec v</m>, then <m>\frac{1}{2}(\vec u +\vec v )</m>
         is the only vector equally distant from both <m>\vec u</m> and <m>\vec v</m>
     </p>
   </li>
@@ -73,7 +73,7 @@ and <em>invalid</em> if it does not.
   </li>
 <li>
     <p>
-    If <m>\vec u\not=\vec 0</m>, then there exists some scalar <m>c</m> 
+    If <m>\vec u\not=\vec 0</m>, then there exists some number <m>c</m> 
         such that <m>c\vec u=\vec v</m>.
     </p>
   </li>
@@ -94,10 +94,10 @@ and <em>invalid</em> if it does not.
 <definition>
     <statement>
         <p>
-  A <term>vector space</term> <m>V</m> is any collection of mathematical objects with
+  A <term>vector space</term> <m>V</m> is any set of mathematical objects, called <term>vectors</term>, and a set of numbers, called <term>scalars</term>, with
   associated addition <m>\oplus</m> and scalar multiplication <m>\odot</m>
   operations that satisfy the following properties. 
-  Let <m>\vec u,\vec v,\vec w</m> belong to <m>V</m>, and let <m>a,b</m> be scalar numbers.
+            Let <m>\vec u,\vec v,\vec w</m> be vectors belonging to <m>V</m>, and let <m>a,b</m> be scalars.
         </p>
 <ol>
 <li><p> Vector addition is associative: <m>\vec u\oplus (\vec v\oplus \vec w)=
@@ -253,7 +253,7 @@ The space of <m>m \times n</m> <term>matrices</term>
   </ul>
 </remark>
 
-<activity tbil-time='20'>
+<activity tbil-time='5'>
     <statement>
     <p>
   Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m>.
@@ -288,12 +288,11 @@ The space of <m>m \times n</m> <term>matrices</term>
     <p>
   Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
   <me>
-    (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
-      \hspace{3em}
-    c\odot (x_1,y_1)=(cx_1,y_1^c)
+    (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)   
   </me>.
     </p>
-    <p>Let <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m>.             Using the operations defined for <m>V</m>, which of the following is           <m>\vec u+\vec v</m>?</p>
+    <p>Let <m>\vec u, \vec v</m> be in <m>V</m> with <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m>.
+        Using the operations defined for <m>V</m>, which of the following is <m>\vec u\oplus\vec v</m>?</p>
       <ol label="a">
         <li>
             <p>
@@ -319,9 +318,9 @@ The space of <m>m \times n</m> <term>matrices</term>
     </statement>
  </activity>
  <activity>
-     <statement>
+     <introduction>
     <p>
-  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operations defined by
+  Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m> with operation defined by
   <me>
     (x_1,y_1)\oplus (x_2,y_2)=(x_1+x_2,y_1y_2)
       \hspace{3em}
@@ -329,11 +328,19 @@ The space of <m>m \times n</m> <term>matrices</term>
   </me>.
          </p>
       <p>
-Let <m>a, b</m> be scalar numbers. Show that <m>\vec u=(1, e)</m> and <m>\vec v=(\ln(2), 2)</m> and  satisfy each side of the distributive property (separately):
-  <me>(a+b)\odot (x_1,y_1)=\left(a\odot (x_1,y_1)\right)\oplus \left(b\odot (x_1,y_1)\right).</me>
+          Let <m>a, b</m> be unspecified scalars and <m>\vec u \in V</m> be the same vector as in the previous exercise.  
+ 
  
       </p>
-  </statement>
+     </introduction>
+     <task> <p>
+          <me>\text{Compute } (a+b)\odot \vec u</me>
+         </p>
+     </task>
+     <task> <p>
+         <me>\text{Compute } \left(a\odot \vec u\right)\oplus \left(b\odot \vec u\right).</me>
+         </p>
+     </task>
 </activity>     
 <activity>
     <introduction>
@@ -344,6 +351,7 @@ Let <m>a, b</m> be scalar numbers. Show that <m>\vec u=(1, e)</m> and <m>\vec v=
       \hspace{3em}
     c\odot (x_1,y_1)=(cx_1,y_1^c)
   </me>.
+    Let <m>a, b</m> be unspecified scalars and <m>\vec u = (x_1,y_1) \in V</m>.
     </p>
     </introduction>
   <task>
@@ -356,7 +364,7 @@ Let <m>a, b</m> be scalar numbers. Show that <m>\vec u=(1, e)</m> and <m>\vec v=
   </task>
   <task><!-- optional -->
       <p>
-  Show that <m>V</m> contains an additive identity element satisfying
+  Show that <m>V</m> contains an additive identity element <m> \vec{z}</m>satisfying
   <me>(x_1,y_1)\oplus\vec{z}=(x_1,y_1)</me>
   for all <m>(x_1,y_1)\in V</m>
   by choosing appropriate values for <m>\vec{z}=(\unknown,\unknown)</m>.

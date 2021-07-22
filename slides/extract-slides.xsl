@@ -4,7 +4,7 @@
   xmlns:xml="http://www.w3.org/XML/1998/namespace"
 >
 
-<xsl:include href="pretext/xsl/pretext-common.xsl"/>
+<!-- Inserted <xsl:include href="pretext/xsl/pretext-common.xsl"/>-->
 
 <xsl:output method="xml" indent="yes"/>
 
@@ -64,19 +64,7 @@
 <xsl:template match="activity|definition|remark|fact|observation|example">
     <slide>
         <xsl:apply-templates select="." mode="slides-title"/>
-        <xsl:choose>
-            <xsl:when test="statement|introduction">
-                <xsl:apply-templates select="statement/*|introduction/*" mode="slideshow-copy"/>
-                <xsl:if test="task">
-                    <ol label="(a)" pause="yes">
-                        <xsl:apply-templates select="task" mode="slideshow-copy"/>
-                    </ol>
-                </xsl:if>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:apply-templates select="*" mode="slideshow-copy"/>
-            </xsl:otherwise>
-        </xsl:choose>
+        <xsl:apply-templates select="statement/*|introduction/*|task" mode="slideshow-copy"/>
     </slide>
 </xsl:template>
 
@@ -100,22 +88,22 @@
         <xsl:when test="latex-image">
             <image>
                 <xsl:attribute name="source">
-                    <xsl:text>images/</xsl:text>
-                    <xsl:apply-templates select="latex-image" mode="visible-id" />
+                    <xsl:text>generated/latex-image/</xsl:text>
+                    <xsl:apply-templates select="." mode="visible-id" />
                     <xsl:text>.svg</xsl:text>
                 </xsl:attribute>
             </image>
         </xsl:when>
         <xsl:otherwise>
-            <xsl:copy-of select="." />
+            <image>
+                <xsl:attribute name="source">
+                    <xsl:text>external/</xsl:text>
+                    <xsl:value-of select="@source"/>
+                </xsl:attribute>
+            </image>
         </xsl:otherwise>
     </xsl:choose>
 </xsl:template>
 
-    <!-- stopgap overwrite from pretext-common until CLI is updated -->
-<xsl:template match="latex-image" mode="visible-id" >
-    <xsl:text>image-</xsl:text>
-    <xsl:number from="//book|article" level="any" count="latex-image" />
-</xsl:template>
 
 </xsl:stylesheet>

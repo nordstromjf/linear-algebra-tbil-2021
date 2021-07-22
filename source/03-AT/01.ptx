@@ -5,7 +5,7 @@
 <definition>
     <statement>
         <p>
-A <term>linear transformation</term> (also known as a <term>linear map</term>)
+A <term>linear transformation</term> (also called a <term>linear map</term>)
 is a map between vector spaces that preserves the vector space operations.
 More precisely, if <m>V</m> and <m>W</m> are vector spaces, a map
 <m>T:V\rightarrow W</m> is called a linear transformation if
@@ -13,13 +13,13 @@ More precisely, if <m>V</m> and <m>W</m> are vector spaces, a map
 <li>
     <p>
     <m>T(\vec{v}+\vec{w}) = T(\vec{v})+T(\vec{w})</m>
-      for any <m>\vec{v},\vec{w} \in V</m>.
+      for any <m>\vec{v},\vec{w} \in V</m>, and
     </p>
 </li>
 <li>
     <p>
     <m>T(c\vec{v}) = cT(\vec{v})</m>
-      for any <m>c \in \IR,\vec{v} \in V</m>.
+        for any <m>c \in \IR,</m> and <m>\vec{v} \in V</m>.
     </p>
 </li>
 </ol>
@@ -60,7 +60,7 @@ Given a linear transformation <m>T:V\to W</m>,
 \end{tikzpicture}
 			</latex-image>
 		</image>
-		<caption>A linear transformation with a domain of <m>\IR^3</m> and a codomain of <m>\IR^2</m></caption>
+		<caption>A linear transformation with a domain of <m>\IR^3</m> and a co-domain of <m>\IR^2</m></caption>
     </figure>
     </statement>
 </definition>
@@ -71,12 +71,12 @@ Let <m>T : \IR^3 \rightarrow \IR^2</m> be given by
 <me>
   T\left(\left[\begin{array}{c} x \\ y \\ z \end{array}\right] \right)
 =
-  \left[\begin{array}{c} x-z \\ 3y \end{array}\right]
+  \left[\begin{array}{c} x-z \\ 3y \end{array}\right].
 </me>
     </p>
 
     <p>
-To show that <m>T</m> is linear, we must verify...
+To show that <m>T</m> is linear, we must verify
 <me>
   T\left(
     \left[\begin{array}{c} x \\ y \\ z \end{array}\right] +

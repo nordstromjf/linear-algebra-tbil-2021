@@ -4,17 +4,11 @@
 
 
 
-
-<definition>
+<activity><!-- make this <activity> to make it appear -->
     <statement>
         <p>
-  A subset of a vector space is called a <term>subspace</term> if it is
-  a vector space on its own.
-        </p>
+            Consider two vectors in <m>\IR^3</m>. If we look at all linaer combinations of those two vectors, we end up with a plane, which we denote <m>S</m>. In the language we've used previously, we can say <m>S</m> is equal to the <em>span</em> of these two vectors. </p>
         <p>
-  For example, the span of these two vectors forms a planar subspace
-  inside of the larger vector space <m>\IR^3</m>.
-        </p>
         <figure>
 			<image width="75%">
 				<latex-image>
@@ -29,8 +23,27 @@
   \end{tikzpicture}
 				</latex-image>
 			</image>
-			<caption>A subspace of <m>\IR^3</m></caption>
+			<caption>A subset of <m>\IR^3</m>, spanned by two vectors.</caption>
 		</figure>
+        </p>
+        <p>
+Think about the answers to the following questions:
+            <ol>
+            <li> Are all of the vectors in <m>S</m> also in <m>\IR^3</m>?</li>
+            <li> For any unspecified <m>\vec{u}, \vec{v} \in S</m> is it the case that <m>\vec{u} + \vec{v} \in S</m>?</li>
+            <li> Let <m>\vec{z}</m> be the additive identity in <m> \IR^3</m>. Is <m>\vec{z} \in S</m>?</li>
+             <li>Are there any properties of a vector space you think might not apply to <m> S</m>? If so, check these.</li>
+            </ol>
+        </p>
+    </statement>
+</activity>
+    
+<definition>
+    <statement>
+        <p>
+  A subset of a vector space is called a <term>subspace</term> if it is
+  a vector space on its own.
+        </p>
     </statement>
 </definition>
 
@@ -64,7 +77,7 @@
     </statement>
 </fact>
 
-<activity tbil-time='15'>
+<activity tbil-time='10'>
     <introduction>
         <p>
 Let <m>S=\setBuilder{\left[\begin{array}{c} x \\ y \\ z \end{array}\right]}{ x+2y+z=0}</m>.
@@ -185,6 +198,48 @@ by doing the following:
   such that <m>2\vec v\not\in T</m>.
       </p>
   </task>
+</activity>
+
+<activity tbil-time='10'>
+    <introduction>
+        <p>
+  Consider these subsets of <m>M_{2 \times 2}</m>, the vector space of all <m> 2 \times 2</m> matrices with real entries. Show that each of these sets is or is not a subspace of <m>M_{2 \times 2}</m>.
+   
+           </p> 
+           </introduction>
+  <task>
+      <p>
+          <me>
+    \setBuilder{ \left[\begin{array}{cc}a&amp;0\\0&amp;b\end{array}\right]}{a,b \in \IR}
+              </me>.
+
+      </p>
+  </task>
+    <task>
+      <p>
+          <me>
+    \setBuilder{ \left[\begin{array}{cc}a&amp;0\\0&amp;b\end{array}\right]}{a + b = 0}
+              </me>.
+
+      </p>
+  </task>
+    <task>
+      <p>
+          <me>
+    \setBuilder{ \left[\begin{array}{cc}a&amp;0\\0&amp;b\end{array}\right]}{a + b = 5}
+              </me>.
+
+      </p>
+  </task>
+    <task>
+      <p>
+          <me>
+      \setBuilder{ \left[\begin{array}{cc}a&amp;c\\0&amp;b\end{array}\right]}{a + b = 0, c \in \IR}
+  </me>.
+
+      </p>
+  </task>
+
 </activity>
 
 

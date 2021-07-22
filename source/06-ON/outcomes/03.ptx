@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <p>
-Determine the orthogonality of a set of Euclidean vectors.
+Use the Gram-Schmidt algorithm to compute an orthonormal basis.
 </p>

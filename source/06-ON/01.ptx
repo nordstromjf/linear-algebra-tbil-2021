@@ -8,13 +8,52 @@
             </li>
         </ul>
     </objectives>
-<activity tbil-time='10'>
-    <statement>
-        <p>
-            TODO
-        </p>
-    </statement>
-</activity>
+    
+
+
+    <activity tbil-time="10">
+        <introduction>
+            <p> 
+           Consider the binary operation ''<m>\circledast</m>'' defined on vectors <m>\vec v</m>, <m> \vec w</m> in <m>\IR^n</m> by
+<me> \vec v \circledast \vec w = v_1 w_1 + v_2 w_2 + v_3 w_3 + \cdots + v_n w_n.
+</me>
+            </p>
+        </introduction>
+        <task>
+            <p>
+Let <m>\vec v =\left[\begin{array}{c} 1 \\ -1 \\ 0 \\ 2 \\ 4 \\ 3 \end{array}\right]</m> and <m> \vec w=\left[\begin{array}{c} 5 \\ 12 \\ -1 \\ 1 \\ 0 \\ 2 \end{array}\right]</m>. What is <m>\vec v \circledast \vec w</m>?
+            </p>
+    <ol label ="a">
+<li> <m>25</m></li>
+<li> <m>\left[\begin{array}{c} 5 \\ -12 \\ 0 \\ 2 \\ 0 \\ 6 \end{array}\right]</m></li>
+<li> <m>1</m></li>
+<li> <m>\left[\begin{array}{c} 6 \\ 11 \\ -1 \\ 3 \\ 4 \\ 5 \end{array}\right]</m></li>
+</ol>
+        </task>
+        <task>
+<p>Let <m>\vec v=\left[\begin{array}{c} 48 \\ 55 \end{array}\right]</m>.</p>
+            <ol><li>Graph <m>\vec v</m> and use the Pythagorean Theorem to determine the length of <m>\vec v</m>.</li>
+                <li>What is <m>\vec v \circledast \vec v</m>?</li></ol>
+        </task>
+        <task>
+<p>Let <m>\vec v=\left[\begin{array}{c} v_1 \\ v_2 \end{array}\right]</m>.</p>
+            <ol><li>Graph <m>\vec v</m> and use the Pythagorean Theorem to determine the length of <m>\vec v</m>.</li>
+                <li>What is <m>\vec v \circledast \vec v</m>?</li>
+                <li>For a vector <m>\vec v</m> in <m>\mathbb{R}^2</m>, how is the length of <m>\vec v</m> related to<m>\vec v \circledast \vec v</m>?</li>
+            </ol>
+        </task>
+    </activity>    
+<subsection><title>The Dot Product</title>
+<p>The dot product is a binary operation on vectors that helps us measure the length of vectors and the angle formed by a pair of vectors.</p>
+<definition>
+Given two <m>n</m>-dimensional vectors <m>\vec v</m> and <m>\vec w</m>, the <term>dot product</term> <m> \vec v \cdot \vec w</m> is defined by
+    <me>
+    \vec v \cdot \vec w = \left[\begin{array}{c} v_1 \\ v_2 \\ v_3 \\ \vdots \\ v_n \end{array}\right] \cdot \left[\begin{array}{c} w_1 \\ w_2 \\ w_3 \\ \vdots \\ w_n \end{array}\right]
+        = v_1 w_1 + v_2 w_2 + v_3 w_3 + \cdots + v_n w_n
+    </me>
+The dot product combines two vectors and creates a scalar that gives us geometric information about the input vectors. If both vectors are the same, then <m>\vec v \dot \vec v</m> gives us the square of the length of <m>\vec v</m>.
+    </definition>
+</subsection>
 
     <subsection>
         <title>Videos</title>

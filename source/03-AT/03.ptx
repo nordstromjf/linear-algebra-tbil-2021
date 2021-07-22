@@ -2,10 +2,47 @@
 <section xml:id="AT3" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Image and Kernel (AT3)</title>
 
+
+<activity tbil-time='5'>
+    <statement>
+        <p>
+Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
+<me>
+  T\left(\left[\begin{array}{c}x \\ y \end{array}\right] \right)
+    =
+  \left[\begin{array}{c} x \\ y \\ 0 \end{array}\right]
+    \hspace{3em}
+    \text{with standard matrix }
+  \left[\begin{array}{cc} 1 &amp; 0 \\ 0 &amp; 1 \\ 0 &amp; 0 \end{array}\right]
+</me>
+Which of these subspaces of <m>\IR^2</m> describes
+the set of all vectors that transform into <m>\vec 0</m>?
+        </p>
+<ol label="a">
+<li>
+    <p>
+    <m>\setBuilder{\left[\begin{array}{c}a \\ a\end{array}\right]}{a\in\IR}</m>
+    </p>
+</li>
+<li>
+    <p>
+    <m>\setList{\left[\begin{array}{c}0\\0\end{array}\right]}</m>
+    </p>
+</li>
+<li>
+    <p>
+    <m>\IR^2=\setBuilder{\left[\begin{array}{c}x \\ y\end{array}\right]}{x,y\in\IR}</m>
+    </p>
+</li>
+</ol>
+    </statement>
+</activity>
+
+    
 <definition>
     <statement>
         <p>
-Let <m>T: V \rightarrow W</m> be a linear transformation.  The <term>kernel</term> of <m>T</m>
+Let <m>T: V \rightarrow W</m> be a linear transformation.  The <term>kernel</term><idx>kernel</idx> of <m>T</m>
 is an important subspace of <m>V</m> defined by
 <me>
 \ker T = \left\{ \vec{v} \in V\ \big|\ T(\vec{v})=\vec{z}\right\}
@@ -36,41 +73,7 @@ is an important subspace of <m>V</m> defined by
     </statement>
 </definition>
 
-<activity tbil-time='5'>
-    <statement>
-        <p>
-Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
-<me>
-  T\left(\left[\begin{array}{c}x \\ y \end{array}\right] \right)
-    =
-  \left[\begin{array}{c} x \\ y \\ 0 \end{array}\right]
-    \hspace{3em}
-    \text{with standard matrix }
-  \left[\begin{array}{cc} 1 &amp; 0 \\ 0 &amp; 1 \\ 0 &amp; 0 \end{array}\right]
-</me>
-Which of these subspaces of <m>\IR^2</m> describes <m>\ker T</m>,
-the set of all vectors that transform into <m>\vec 0</m>?
-        </p>
-<ol label="a">
-<li>
-    <p>
-    <m>\setBuilder{\left[\begin{array}{c}a \\ a\end{array}\right]}{a\in\IR}</m>
-    </p>
-</li>
-<li>
-    <p>
-    <m>\setList{\left[\begin{array}{c}0\\0\end{array}\right]}</m>
-    </p>
-</li>
-<li>
-    <p>
-    <m>\IR^2=\setBuilder{\left[\begin{array}{c}x \\ y\end{array}\right]}{x,y\in\IR}</m>
-    </p>
-</li>
-</ol>
-    </statement>
-</activity>
-
+    
 <activity tbil-time='5'>
     <statement>
         <p>
@@ -154,6 +157,47 @@ Find a basis for the kernel of <m>T</m>.
 <sage language="octave">
 </sage>
 
+
+
+<activity tbil-time='5'>
+    <statement>
+        <p>
+Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
+<me>
+  T\left(\left[\begin{array}{c}x \\ y \end{array}\right] \right)
+    =
+  \left[\begin{array}{c} x \\ y \\ 0 \end{array}\right]
+    \hspace{3em}
+    \text{with standard matrix }
+  \left[\begin{array}{cc} 1 &amp; 0 \\ 0 &amp; 1 \\ 0 &amp; 0 \end{array}\right]
+</me>
+Which of these subspaces of <m>\IR^3</m> describes the set of all vectors that are the result of using <m>T</m> to transform
+<m>\IR^2</m> vectors?
+        </p>
+<ol label="a">
+<li>
+    <p>
+    <m>\setBuilder{\left[\begin{array}{c}0 \\ 0\\ a\end{array}\right]}{a\in\IR}</m>
+    </p>
+</li>
+<li>
+    <p>
+    <m>\setBuilder{\left[\begin{array}{c}a \\ b\\ 0\end{array}\right]}{a,b\in\IR}</m>
+    </p>
+</li>
+<li>
+    <p>
+        <m>\setList{\left[\begin{array}{c}0\\0\\0\end{array}\right]}</m>
+    </p>
+</li>
+<li>
+    <p>
+    <m>\IR^3=\setBuilder{\left[\begin{array}{c}x \\ y\\z\end{array}\right]}{x,y,z\in\IR}</m>
+    </p>
+</li>
+</ol>
+    </statement>
+</activity>
 <definition>
     <statement>
         <p>
@@ -224,48 +268,6 @@ right example's image is a planar subspace of <m>\IR^3</m>.
         </figure>
     </statement>
 </definition>
-
-<activity tbil-time='5'>
-    <statement>
-        <p>
-Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
-<me>
-  T\left(\left[\begin{array}{c}x \\ y \end{array}\right] \right)
-    =
-  \left[\begin{array}{c} x \\ y \\ 0 \end{array}\right]
-    \hspace{3em}
-    \text{with standard matrix }
-  \left[\begin{array}{cc} 1 &amp; 0 \\ 0 &amp; 1 \\ 0 &amp; 0 \end{array}\right]
-</me>
-Which of these subspaces of <m>\IR^3</m> describes <m>\Im T</m>,
-the set of all vectors that are the result of using <m>T</m> to transform
-<m>\IR^2</m> vectors?
-        </p>
-<ol label="a">
-<li>
-    <p>
-    <m>\setBuilder{\left[\begin{array}{c}0 \\ 0\\ a\end{array}\right]}{a\in\IR}</m>
-    </p>
-</li>
-<li>
-    <p>
-    <m>\setBuilder{\left[\begin{array}{c}a \\ b\\ 0\end{array}\right]}{a,b\in\IR}</m>
-    </p>
-</li>
-<li>
-    <p>
-        <m>\setList{\left[\begin{array}{c}0\\0\\0\end{array}\right]}</m>
-    </p>
-</li>
-<li>
-    <p>
-    <m>\IR^3=\setBuilder{\left[\begin{array}{c}x \\ y\\z\end{array}\right]}{x,y,z\in\IR}</m>
-    </p>
-</li>
-</ol>
-    </statement>
-</activity>
-
 <activity tbil-time='5'>
     <statement>
         <p>
@@ -317,8 +319,8 @@ standard matrix
 .</me>
         </p>
         <p>
-Since <m>T(\vec v)=T(x_1\vec e_1+x_2\vec e_2+x_3\vec e_3+x_4\vec e_4)</m>,
-the set of vectors
+Since for a vector <m>\vec v =\left[\begin{array}{c}x_1 \\ x_2 \\ x_3 \\ x_4 \end{array}\right] </m>, <m>T(\vec v)=T(x_1\vec e_1+x_2\vec e_2+x_3\vec e_3+x_4\vec e_4)</m>,
+which of the following best describes the set of vectors
 <me>
   \setList{
     \left[\begin{array}{c}3\\-1\\2\end{array}\right],
@@ -326,22 +328,22 @@ the set of vectors
     \left[\begin{array}{c}7\\0\\3\end{array}\right],
     \left[\begin{array}{c}1\\2\\-1\end{array}\right]
   }
-</me>
+</me>?
         </p>
 <ol label="a">
 <li>
     <p>
-    spans <m>\Im T</m>
+    The set of vectors spans <m>\Im T</m> but is not linearly independent.
     </p>
 </li>
 <li>
     <p>
-    is a linearly independent subset of <m>\Im T</m>
+    The set of vectors is a linearly independent subset of <m>\Im T</m> but does not span <m>\Im T</m>.
     </p>
 </li>
 <li>
     <p>
-    is a basis for <m>\Im T</m>
+    The set of vectors is linearly independent <emph>and</emph> spans <m> \Im T</m>; that is, the set of vectors is a basis for <m>\Im T</m>.
     </p>
 </li>
 </ol>

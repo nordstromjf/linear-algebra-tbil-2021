@@ -11,13 +11,13 @@
     <definition>
         <statement>
             <p>
-A <term>linear equation</term> is an equation of the variables <m>x_i</m> of the form
+A <term>linear equation</term><idx>linear equation</idx> is an equation of the variables <m>x_i</m> of the form
 <me>
 a_1x_1+a_2x_2+\dots+a_nx_n=b
 </me>.
             </p>
             <p>
-A <term>solution</term> for a linear equation is a Euclidean vector
+                A <term>solution</term> for a linear equation is a Euclidean vector<idx>Euclidean vector</idx><idx><h>vector</h><h>Euclidean</h></idx>
 <me>
   \left[\begin{array}{c}
     s_1 \\
@@ -32,7 +32,7 @@ a_1s_1+a_2s_2+\dots+a_ns_n=b
 </me>
 (that is, a Euclidean vector that can be plugged into the equation).
             </p>
-        </statement>
+        </statement><idx><h>linear equation</h><h>solution</h></idx>
     </definition>
 
 
@@ -85,7 +85,7 @@ is a collection of one or more linear equations.
     \text{is a solution to all equations in the system}
   }
 </me>.
-    </p></statement></definition>
+    </p></statement><idx>system of linear equations</idx><idx>linear system</idx></definition>
 
 <remark>
     <p>
