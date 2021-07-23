@@ -41,8 +41,7 @@ Think about the answers to the following questions:
 <definition>
     <statement>
         <p>
-  A subset of a vector space is called a <term>subspace</term> if it is
-  a vector space on its own.
+  A subset of a vector space is called a <term>subspace</term><idx>subspace</idx> if it is a vector space on its own. The operations of addition and scalar from the <term>parent vector space</term> are inherited by the subspace.
         </p>
     </statement>
 </definition>

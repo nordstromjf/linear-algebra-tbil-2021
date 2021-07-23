@@ -12,7 +12,7 @@
     <statement>
         <p>
   Two systems of linear equations (and their corresponding augmented
-  matrices) are said to be <term>equivalent</term> if they have the same
+            matrices) are said to be <term>equivalent</term><idx>equivalent matrices</idx> if they have the same
   solution set.
         </p>
         <p>
@@ -94,7 +94,7 @@
 <definition>
     <statement>
         <p>
-  The following three <term>row operations</term> produce equivalent
+  The following three <term>row operations</term><idx>row operations</idx> produce equivalent
   augmented matrices.
         </p>
   <ol>
@@ -250,11 +250,11 @@ We can rewrite the previous in terms of  equivalences of augmented matrices
 <definition>
     <statement>
         <p>
-A matrix is in <term>reduced row echelon form</term> (<term>RREF</term>) if
+A matrix is in <term>reduced row echelon form</term> (<term>RREF</term>)<idx>Reduced row echelon form</idx> if
         </p>
 <ol>
 <li> The leading term (first nonzero term) of each nonzero row is a 1.
-      Call these terms <term>pivots</term>.
+      Call these terms <term>pivots</term>.<idx>pivot</idx>
 </li>
 <li> Each pivot is to the right of every higher pivot.
 </li>
@@ -331,7 +331,7 @@ In practice, if we simply need to convert a matrix into reduced row echelon form
 we use technology to do so.
     </p>
     <p>
-However, it is also important to understand the <term>Gauss-Jordan elimination</term> algorithm
+However, it is also important to understand the <term>Gauss-Jordan elimination</term><idx>Gauss-Jordan elimination</idx> algorithm
 that a computer or calculator uses to convert a matrix (augmented or not) into reduced row echelon form.
 Understanding this algorithm will help us better understand how to interpret the results
 in many applications we use it for in Module V.

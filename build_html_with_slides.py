@@ -4,7 +4,7 @@ from pretext.utils import working_directory
 from lxml import etree as ET
 from pathlib import Path
 
-# build HTML with diagrams as usual
+# build HTML as usual
 with working_directory("."):
     Project().build("html",diagrams=False)
 

@@ -94,7 +94,7 @@ and <em>invalid</em> if it does not.
 <definition>
     <statement>
         <p>
-  A <term>vector space</term> <m>V</m> is any set of mathematical objects, called <term>vectors</term>, and a set of numbers, called <term>scalars</term>, with
+  A <term>vector space</term><idx>vector space</idx> <m>V</m> is any set of mathematical objects, called <term>vectors</term><idx> vector </idx>, and a set of numbers, called <term>scalars</term><idx> scalar </idx>, with
   associated addition <m>\oplus</m> and scalar multiplication <m>\odot</m>
   operations that satisfy the following properties. 
             Let <m>\vec u,\vec v,\vec w</m> be vectors belonging to <m>V</m>, and let <m>a,b</m> be scalars.
@@ -113,13 +113,13 @@ and <em>invalid</em> if it does not.
 <li>
     <p> An additive identity exists:
     There exists some <m>\vec z</m>
-        where <m>\vec v\oplus \vec z=\vec v</m>.
+        where <m>\vec v\oplus \vec z=\vec v</m>.<idx>additive identity</idx>
     </p>
   </li>
 <li>
     <p> Additive inverses exist: 
     There exists some <m>-\vec v</m>
-        where <m>\vec v\oplus (-\vec v)=\vec z</m>.
+        where <m>\vec v\oplus (-\vec v)=\vec z</m>.<idx>additive inverse</idx>
     </p>
   </li>
 <li>
@@ -150,7 +150,7 @@ and <em>invalid</em> if it does not.
 <observation>
     <statement>
         <p>
-  Every <term>Euclidean vector space</term>
+  Every <term>Euclidean vector space</term><idx><h>Euclidean</h><h>vector space</h></idx>
   <me>
     \IR^n=\setBuilder{\left[\begin{array}{c}x_1\\x_2\\\vdots\\x_n\end{array}\right]}{x_1,x_2,\dots,x_n\in\IR}
   </me>
@@ -351,7 +351,12 @@ The space of <m>m \times n</m> <term>matrices</term>
       \hspace{3em}
     c\odot (x_1,y_1)=(cx_1,y_1^c)
   </me>.
-    Let <m>a, b</m> be unspecified scalars and <m>\vec u = (x_1,y_1) \in V</m>.
+    Let <m>a, b</m> be unspecified 
+        
+        
+        
+        
+        s and <m>\vec u = (x_1,y_1) \in V</m>.
     </p>
     </introduction>
   <task>

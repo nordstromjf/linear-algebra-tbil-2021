@@ -5,7 +5,7 @@
 <definition>
     <statement>
         <p>
-  A <term>linear combination</term> of a set of vectors
+  A <term>linear combination</term> <idx> linear combination</idx>of a set of vectors
   <m>\{\vec v_1,\vec v_2,\dots,\vec v_m\}</m> is given by
   <m>c_1\vec v_1+c_2\vec v_2+\dots+c_m\vec v_m</m> for any choice of
   scalar multiples <m>c_1,c_2,\dots,c_m</m>.
@@ -26,7 +26,7 @@
 <definition>
     <statement>
         <p>
-  The <term>span</term> of a set of vectors is the collection of all linear
+  The <term>span</term><idx>span</idx> of a set of vectors is the collection of all linear
   combinations of that set:
   <me>
     \vspan\{\vec v_1,\vec v_2,\dots,\vec v_m\} =

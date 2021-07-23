@@ -65,7 +65,7 @@ is a collection of one or more linear equations.
             </mrow>
         </md>
     </p><p>
-        Its <term>solution set</term> is given by
+        Its <term>solution set</term><idx>solution set</idx> is given by
 <me>
   \setBuilder
   {
@@ -140,7 +140,7 @@ is a collection of one or more linear equations.
 
     <remark>
         <p>
-It will often be convenient to think of a system of equations as a vector equation.
+It will often be convenient to think of a system of equations as a vector equation.<idx>vector equation</idx>
         </p>
         <p>
 By applying vector operations and equating components, it is straightforward to see that the vector equation
@@ -165,9 +165,9 @@ is equivalent to the system of equations
     <definition>
         <statement>
             <p>
-A linear system is <term>consistent</term> if its solution set
+A linear system is <term>consistent</term><idx><h>linear system</h><h>consistent</h></idx> if its solution set
   is non-empty (that is, there exists a solution for the
-system). Otherwise it is <term>inconsistent</term>.
+system). Otherwise it is <term>inconsistent</term>.<idx><h>linear system</h><h>inconsistent</h></idx>
             </p>
         </statement>
     </definition>
@@ -373,7 +373,7 @@ All inconsistent linear systems contain a logical <term>contradiction</term>.
         <statement>
             <p>
   A system of <m>m</m> linear equations with <m>n</m> variables is often represented
-    by writing its coefficients and constants in an <term>augmented matrix</term>.
+    by writing its coefficients and constants in an <term>augmented matrix</term>.<idx>augmented matrix</idx>
             </p>
             <md alignment="alignat" alignat-columns="5">
                 <mrow>

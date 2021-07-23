@@ -33,9 +33,9 @@
 <definition>
     <statement>
         <p>
-  We say that a set of vectors is <term>linearly dependent</term> if one vector
+  We say that a set of vectors is <term>linearly dependent</term><idx>linearly dependent</idx> if one vector
   in the set belongs to the span of the others. Otherwise, we say the set
-  is <term>linearly independent</term>.
+  is <term>linearly independent</term>.<idx>linearly independent</idx>
         </p>
         <figure>
 			<image width="75%">
@@ -62,6 +62,30 @@
         </p>
     </statement>
 </definition>
+<activity tbil-time='10'>
+    <introduction>
+    <p>Begin with 3 vectors in <m>\IR^3</m>
+        <me>\vec v_1=\left[\begin{array}{c}1 \\ 0 \\ 0\end{array}\right],
+    \vec v_2=\left[\begin{array}{c}0 \\ 1 \\ 0\end{array}\right],
+   \text{ and }
+    \vec v_3=\left[\begin{array}{c}0 \\ 0 \\ 1\end{array}\right]
+  </me>.
+        </p>
+    </introduction>
+    <task><p>Choose three non-zero scalars, <m>a,b</m>, and <m>c</m>. Let <m> \vec w = a\vec v_1 + b \vec v_2 + c \vec v_3</m>. Is the set <m>\{\vec v_1,\vec v_2,\vec v_3,\vec w\}</m> linearly dependent?</p></task>
+    <task> 
+        <p>
+       Find <me>\RREF \left[\begin{array}{cccc}
+        \vdots &amp; \vdots &amp;\vdots &amp;\vdots &amp;\\
+        \vec v_1 &amp; \vec v_2  &amp; \vec v_3  &amp; \vec w \\
+        \vdots &amp;\vdots &amp;\vdots &amp;\vdots &amp;
+            \end{array}\right].</me></p>
+         <p>   
+        What does this tell you about solution set for the vector equation 
+        <m>x_1\vec{v}_1+x_2\vec{v}_2+x_3\vec{v}_3 + x_4\vec w=\vec{0}</m>?
+        </p>
+        </task>
+    </activity>
 
 <activity tbil-time='10'>
     <statement>
@@ -165,6 +189,10 @@
   has all pivot rows.
     </p>
   </li>
+  <li><p> A set of <m>\IR^m</m> vectors
+  <m>\{\vec v_1,\dots\vec v_n\}</m> is linearly independent if and only the vector equation <me>c_1\vec v_1+ c_2 \vec v_2 + \cdots + c_n\vec v_n = 0</me> has exactly one solution, with <m>c_1 = c_2 = \cdots  = c_n = 0</m>.
+      </p>
+      </li>
   </ul>
     </statement>
 </observation>
@@ -311,6 +339,11 @@ vectors that can form a linearly independent set?
 </ol>
     </statement>
 </activity>
+    
+<activity>
+    <statement>
+    Is is possible for the set of vectors <m>\{\vec v_1, \vec v_2,\ldots, \vec v_n, \vec 0\}</m> in a vector space <m> V </m> to be linearly independent? Recall that <m>\vec 0</m> represents the additive identity.
+    </statement></activity>
 
     <subsection>
         <title>Videos</title>

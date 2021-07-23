@@ -42,7 +42,7 @@ and
 =
   \left[\begin{array}{c} -3 \\ 2 \end{array}\right]
 </m>.
-Compute <m>T\left(\left[\begin{array}{c} 3 \\ 0 \\ 0 \end{array}\right]\right)</m>.
+What is <m>T\left(\left[\begin{array}{c} 3 \\ 0 \\ 0 \end{array}\right]\right)</m>?
         </p>
 <ol label="a">
 <li> <m>\left[\begin{array}{c} 6 \\ 3\end{array}\right]</m>
@@ -72,7 +72,7 @@ and
 =
   \left[\begin{array}{c} -3 \\ 2 \end{array}\right]
 </m>.
-Compute <m>T\left(\left[\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right]\right)</m>.
+What is <m>T\left(\left[\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right]\right)</m>?
         </p>
 <ol label="a">
 <li>
@@ -114,7 +114,7 @@ and
 =
   \left[\begin{array}{c} -3 \\ 2 \end{array}\right]
 </m>.
-Compute <m>T\left(\left[\begin{array}{c} -2 \\ 0 \\ -3 \end{array}\right]\right)</m>.
+What is <m>T\left(\left[\begin{array}{c} -2 \\ 0 \\ -3 \end{array}\right]\right)</m>?
         </p>
 <ol label="a">
 <li>
@@ -188,7 +188,7 @@ What piece of information would help you compute <m>T\left(\left[\begin{array}{c
         <p>
 Consider any basis <m>\{\vec b_1,\dots,\vec b_n\}</m> for <m>V</m>.  Since every
 vector <m>\vec v</m> can be written as a linear combination of
-basis vectors, <m>x_1\vec b_1+\dots+ x_n\vec b_n</m>, we may compute
+basis vectors,  <m>\vec v = x_1\vec b_1+\dots+ x_n\vec b_n</m>, we may compute
 <m>T(\vec v)</m> as follows:
         </p>
 <me>
@@ -200,7 +200,7 @@ Therefore any linear transformation <m>T:V \rightarrow W</m> can be defined
 by just describing the values of <m>T(\vec b_i)</m>.
         </p>
         <p>
-Put another way, the images of the basis vectors <term>determine</term> the transformation <m>T</m>.
+Put another way, the images of the basis vectors completely <term>determine</term> the transformation <m>T</m>.
         </p>
     </statement>
 </fact>
@@ -208,9 +208,9 @@ Put another way, the images of the basis vectors <term>determine</term> the tran
 <definition>
     <statement>
         <p>
-Since linear transformation <m>T:\IR^n\to\IR^m</m> is determined by
-the standard basis <m>\{\vec e_1,\dots,\vec e_n\}</m>, it's convenient to
-store this information in the <m>m\times n</m> <term>standard matrix</term>
+Since a linear transformation <m>T:\IR^n\to\IR^m</m> is determined by its action on
+the standard basis <m>\{\vec e_1,\dots,\vec e_n\}</m>, it is convenient to
+store this information in an <m>m\times n</m> matrix, called the <term>standard matrix</term><idx>standard matrix</idx> of <m>T</m>, given by
 <m>[T(\vec e_1) \,\cdots\, T(\vec e_n)]</m>.
         </p>
         <p>
@@ -344,25 +344,25 @@ Compute <m>T\left(\left[\begin{array}{c} x\\ y \\ z \end{array}\right] \right) <
 
 <activity tbil-time='15'>
     <statement>
-    <p>
-  Compute the following linear transformations of vectors given their
-  standard matrices.
-    </p>
-  <me>
+    
+ <introduction> <p>Compute the following linear transformations of vectors given their
+  standard matrices.</p></introduction>
+    
+ <task> <me>
     T_1\left(\left[\begin{array}{c}1\\2\end{array}\right]\right)
     \text{ for the standard matrix }
     A_1=\left[\begin{array}{cc}4&amp;3\\0&amp;-1\\1&amp;1\\3&amp;0\end{array}\right]
-  </me>
-  <me>
+  </me></task>
+ <task><me>
     T_2\left(\left[\begin{array}{c}1\\1\\0\\-3\end{array}\right]\right)
     \text{ for the standard matrix }
     A_2=\left[\begin{array}{cccc}4&amp;3&amp;0&amp;-1\\1&amp;1&amp;3&amp;0\end{array}\right]
-  </me>
-  <me>
+  </me></task> 
+ <task> <me>
     T_3\left(\left[\begin{array}{c}0\\-2\\0\end{array}\right]\right)
     \text{ for the standard matrix }
     A_3=\left[\begin{array}{ccc}4&amp;3&amp;0\\0&amp;-1&amp;3\\5&amp;1&amp;1\\3&amp;0&amp;0\end{array}\right]
-  </me>
+  </me></task>
     </statement>
 </activity>
 
