@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-22T21:35:51Z       *-->
+<!--*       on 2021-07-23T21:12:56Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -128,7 +128,9 @@
 </div></div>
 <nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
-<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="GT2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="GT.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="GT4.html" title="Next">Next</a></span></div>
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="GT2.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="GT.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="GT4.html" title="Next">Next</a></span>
+</div>
 </div>
 <div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
 <button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="GT2.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="GT.html" title="Up">Up</a><a class="next-button button toolbar-item" href="GT4.html" title="Next">Next</a>
@@ -207,6 +209,7 @@
 <li><a href="list-of-definitions.html" data-scroll="list-of-definitions">Definitions</a></li>
 </ul>
 </li>
+<li class="link"><a href="index-1.html" data-scroll="index-1"><span class="title">Index</span></a></li>
 <li class="link"><a href="tbil-rl.html" data-scroll="tbil-rl"><span class="title">TBIL Resource Library</span></a></li>
 <li class="link"><a href="pretext.html" data-scroll="pretext"><span class="title">Authored with PreTeXt</span></a></li>
 </ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
@@ -214,10 +217,10 @@
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="GT3"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">5.3</span> <span class="title">Eigenvalues and Characteristic Polynomials (GT3)</span>
 </h2>
-<article class="activity project-like" id="activity-148"><h6 class="heading">
+<article class="activity project-like" id="activity-150"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.3.1</span><span class="period">.</span>
 </h6>
-<p id="p-858">An invertible matrix \(M\) and its inverse \(M^{-1}\) are given below:</p>
+<p id="p-863">An invertible matrix \(M\) and its inverse \(M^{-1}\) are given below:</p>
 <div class="displaymath">
 \begin{equation*}
 M=\left[\begin{array}{cc}1&amp;2\\3&amp;4\end{array}\right]
@@ -225,28 +228,28 @@ M=\left[\begin{array}{cc}1&amp;2\\3&amp;4\end{array}\right]
 M^{-1}=\left[\begin{array}{cc}-2&amp;1\\3/2&amp;-1/2\end{array}\right]
 \end{equation*}
 </div>
-<p id="p-859">Which of the following is equal to \(\det(M)\det(M^{-1})\text{?}\)</p>
+<p id="p-864">Which of the following is equal to \(\det(M)\det(M^{-1})\text{?}\)</p>
 <ol class="lower-alpha">
-<li id="li-411"><p id="p-860">\(\displaystyle -1\)</p></li>
-<li id="li-412"><p id="p-861">\(\displaystyle 0\)</p></li>
-<li id="li-413"><p id="p-862">\(\displaystyle 1\)</p></li>
-<li id="li-414"><p id="p-863">\(\displaystyle 4\)</p></li>
+<li id="li-412"><p id="p-865">\(\displaystyle -1\)</p></li>
+<li id="li-413"><p id="p-866">\(\displaystyle 0\)</p></li>
+<li id="li-414"><p id="p-867">\(\displaystyle 1\)</p></li>
+<li id="li-415"><p id="p-868">\(\displaystyle 4\)</p></li>
 </ol></article><article class="fact theorem-like" id="fact-28"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">5.3.2</span><span class="period">.</span>
 </h6>
-<p id="p-864">For every invertible matrix \(M\text{,}\)</p>
+<p id="p-869">For every invertible matrix \(M\text{,}\)</p>
 <div class="displaymath">
 \begin{equation*}
 \det(M)\det(M^{-1})= \det(I)=1
 \end{equation*}
 </div>
 <p class="continuation">so \(\det(M^{-1})=\frac{1}{\det(M)}\text{.}\)</p>
-<p id="p-865">Furthermore, a square matrix \(M\) is invertible if and only if \(\det(M)\not=0\text{.}\)</p></article><article class="observation remark-like" id="observation-35"><h6 class="heading">
+<p id="p-870">Furthermore, a square matrix \(M\) is invertible if and only if \(\det(M)\not=0\text{.}\)</p></article><article class="observation remark-like" id="observation-35"><h6 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">5.3.3</span><span class="period">.</span>
 </h6>
-<p id="p-866">Consider the linear transformation \(A : \IR^2 \rightarrow \IR^2\) given by the matrix \(A = \left[\begin{array}{cc} 2 &amp; 2 \\ 0 &amp; 3 \end{array}\right]\text{.}\)</p>
+<p id="p-871">Consider the linear transformation \(A : \IR^2 \rightarrow \IR^2\) given by the matrix \(A = \left[\begin{array}{cc} 2 &amp; 2 \\ 0 &amp; 3 \end{array}\right]\text{.}\)</p>
 <figure class="figure figure-like" id="figure-59"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-30.svg" role="img" class="contained" alt=""></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.3.4<span class="period">.</span></span><span class="space"> </span>Transformation of the unit square by the linear transformation \(A\)</figcaption></figure><p id="p-867">It is easy to see geometrically that</p>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.3.4<span class="period">.</span></span><span class="space"> </span>Transformation of the unit square by the linear transformation \(A\)</figcaption></figure><p id="p-872">It is easy to see geometrically that</p>
 <div class="displaymath">
 \begin{equation*}
 A\left[\begin{array}{c}1 \\ 0 \end{array}\right] = 
@@ -255,7 +258,7 @@ A\left[\begin{array}{c}1 \\ 0 \end{array}\right] =
 2 \left[\begin{array}{c}1 \\ 0 \end{array}\right]\text{.}
 \end{equation*}
 </div>
-<p id="p-868">It is less obvious (but easily checked once you find it) that</p>
+<p id="p-873">It is less obvious (but easily checked once you find it) that</p>
 <div class="displaymath">
 \begin{equation*}
 A\left[\begin{array}{c} 2 \\ 1 \end{array}\right] = 
@@ -266,12 +269,12 @@ A\left[\begin{array}{c} 2 \\ 1 \end{array}\right] =
 </div></article><article class="definition definition-like" id="definition-28"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.3.5</span><span class="period">.</span>
 </h6>
-<p id="p-869">Let \(A \in M_{n,n}\text{.}\) An <dfn class="terminology">eigenvector</dfn> for \(A\) is a vector \(\vec{x} \in \IR^n\) such that \(A\vec{x}\) is parallel to \(\vec{x}\text{.}\)</p>
+<p id="p-874">Let \(A \in M_{n,n}\text{.}\) An <dfn class="terminology">eigenvector</dfn> for \(A\) is a vector \(\vec{x} \in \IR^n\) such that \(A\vec{x}\) is parallel to \(\vec{x}\text{.}\)</p>
 <figure class="figure figure-like" id="figure-60"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-31.svg" role="img" class="contained" alt=""></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.3.6<span class="period">.</span></span><span class="space"> </span>The map \(A\) stretches out the eigenvector \(\left[\begin{array}{c}2 \\ 1 \end{array}\right]\) by a factor of \(3\) (the corresponding eigenvalue).</figcaption></figure><p id="p-870">In other words, \(A\vec{x}=\lambda \vec{x}\) for some scalar \(\lambda\text{.}\) If \(\vec x\not=\vec 0\text{,}\) then we say \(\vec x\) is a <dfn class="terminology">nontrivial eigenvector</dfn> and we call this \(\lambda\) an <dfn class="terminology">eigenvalue</dfn> of \(A\text{.}\)</p></article><article class="activity project-like" id="activity-149"><h6 class="heading">
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.3.6<span class="period">.</span></span><span class="space"> </span>The map \(A\) stretches out the eigenvector \(\left[\begin{array}{c}2 \\ 1 \end{array}\right]\) by a factor of \(3\) (the corresponding eigenvalue).</figcaption></figure><p id="p-875">In other words, \(A\vec{x}=\lambda \vec{x}\) for some scalar \(\lambda\text{.}\) If \(\vec x\not=\vec 0\text{,}\) then we say \(\vec x\) is a <dfn class="terminology">nontrivial eigenvector</dfn> and we call this \(\lambda\) an <dfn class="terminology">eigenvalue</dfn> of \(A\text{.}\)</p></article><article class="activity project-like" id="activity-151"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.3.7</span><span class="period">.</span>
 </h6>
-<p id="p-871">Finding the eigenvalues \(\lambda\) that satisfy</p>
+<p id="p-876">Finding the eigenvalues \(\lambda\) that satisfy</p>
 <div class="displaymath">
 \begin{equation*}
 A\vec x=\lambda\vec x=\lambda(I\vec x)=(\lambda I)\vec x
@@ -283,17 +286,17 @@ A\vec x=\lambda\vec x=\lambda(I\vec x)=(\lambda I)\vec x
 (A-\lambda I)\vec x =\vec 0\text{.}
 \end{equation*}
 </div>
-<p id="p-872">Which of the following must be true for any eigenvalue?</p>
+<p id="p-877">Which of the following must be true for any eigenvalue?</p>
 <ol class="lower-alpha">
-<li id="li-415"><p id="p-873">The <em class="emphasis">kernel</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">the zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">invertible</em>.</p></li>
-<li id="li-416"><p id="p-874">The <em class="emphasis">kernel</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">a non-zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">not invertible</em>.</p></li>
-<li id="li-417"><p id="p-875">The <em class="emphasis">image</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">the zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">invertible</em>.</p></li>
-<li id="li-418"><p id="p-876">The <em class="emphasis">image</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">a non-zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">not invertible</em>.</p></li>
+<li id="li-416"><p id="p-878">The <em class="emphasis">kernel</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">the zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">invertible</em>.</p></li>
+<li id="li-417"><p id="p-879">The <em class="emphasis">kernel</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">a non-zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">not invertible</em>.</p></li>
+<li id="li-418"><p id="p-880">The <em class="emphasis">image</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">the zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">invertible</em>.</p></li>
+<li id="li-419"><p id="p-881">The <em class="emphasis">image</em> of the transformation with standard matrix \(A-\lambda I\) must contain <em class="emphasis">a non-zero vector</em>, so \(A-\lambda I\) is <em class="emphasis">not invertible</em>.</p></li>
 </ol></article><article class="fact theorem-like" id="fact-29"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">5.3.8</span><span class="period">.</span>
 </h6>
-<p id="p-877">The eigenvalues \(\lambda\) for a matrix \(A\) are the values that make \(A-\lambda I\) non-invertible.</p>
-<p id="p-878">Thus the eigenvalues \(\lambda\) for a matrix \(A\) are the solutions to the equation</p>
+<p id="p-882">The eigenvalues \(\lambda\) for a matrix \(A\) are the values that make \(A-\lambda I\) non-invertible.</p>
+<p id="p-883">Thus the eigenvalues \(\lambda\) for a matrix \(A\) are the solutions to the equation</p>
 <div class="displaymath">
 \begin{equation*}
 \det(A-\lambda I)=0.
@@ -301,8 +304,8 @@ A\vec x=\lambda\vec x=\lambda(I\vec x)=(\lambda I)\vec x
 </div></article><article class="definition definition-like" id="definition-29"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.3.9</span><span class="period">.</span>
 </h6>
-<p id="p-879">The expression \(\det(A-\lambda I)\) is called <dfn class="terminology">characteristic polynomial</dfn> of \(A\text{.}\)</p>
-<p id="p-880">For example, when \(A=\left[\begin{array}{cc}1 &amp; 2 \\ 3 &amp; 4\end{array}\right]\text{,}\) we have</p>
+<p id="p-884">The expression \(\det(A-\lambda I)\) is called <dfn class="terminology">characteristic polynomial</dfn> of \(A\text{.}\)</p>
+<p id="p-885">For example, when \(A=\left[\begin{array}{cc}1 &amp; 2 \\ 3 &amp; 4\end{array}\right]\text{,}\) we have</p>
 <div class="displaymath">
 \begin{equation*}
 A-\lambda I=
@@ -311,7 +314,7 @@ A-\lambda I=
 \left[\begin{array}{cc}1-\lambda &amp; 2 \\ 3 &amp; 4-\lambda\end{array}\right]\text{.}
 \end{equation*}
 </div>
-<p id="p-881">Thus the characteristic polynomial of \(A\) is</p>
+<p id="p-886">Thus the characteristic polynomial of \(A\) is</p>
 <div class="displaymath">
 \begin{equation*}
 \det\left[\begin{array}{cc}1-\lambda &amp; 2 \\ 3 &amp; 4-\lambda\end{array}\right]
@@ -321,29 +324,29 @@ A-\lambda I=
 \lambda^2-5\lambda-2
 \end{equation*}
 </div>
-<p class="continuation">and its eigenvalues are the solutions to \(\lambda^2-5\lambda-2=0\text{.}\)</p></article><article class="activity project-like" id="activity-150"><h6 class="heading">
+<p class="continuation">and its eigenvalues are the solutions to \(\lambda^2-5\lambda-2=0\text{.}\)</p></article><article class="activity project-like" id="activity-152"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.3.10</span><span class="period">.</span>
 </h6>
-<div class="introduction" id="introduction-51"><p id="p-882">Let \(A = \left[\begin{array}{cc} 5 &amp; 2 \\ -3 &amp; -2 \end{array}\right]\text{.}\)</p></div>
-<article class="task exercise-like" id="task-107"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-883">Compute \(\det (A-\lambda I)\) to determine the characteristic polynomial of \(A\text{.}\)</p></article><article class="task exercise-like" id="task-108"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-884">Set this characteristic polynomial equal to zero and factor to determine the eigenvalues of \(A\text{.}\)</p></article></article><article class="activity project-like" id="activity-151"><h6 class="heading">
+<div class="introduction" id="introduction-53"><p id="p-887">Let \(A = \left[\begin{array}{cc} 5 &amp; 2 \\ -3 &amp; -2 \end{array}\right]\text{.}\)</p></div>
+<article class="task exercise-like" id="task-112"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-888">Compute \(\det (A-\lambda I)\) to determine the characteristic polynomial of \(A\text{.}\)</p></article><article class="task exercise-like" id="task-113"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-889">Set this characteristic polynomial equal to zero and factor to determine the eigenvalues of \(A\text{.}\)</p></article></article><article class="activity project-like" id="activity-153"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.3.11</span><span class="period">.</span>
 </h6>
-<p id="p-885">Find all the eigenvalues for the matrix \(A=\left[\begin{array}{cc} 3 &amp; -3 \\ 2 &amp; -4 \end{array}\right]\text{.}\)</p></article><article class="activity project-like" id="activity-152"><h6 class="heading">
+<p id="p-890">Find all the eigenvalues for the matrix \(A=\left[\begin{array}{cc} 3 &amp; -3 \\ 2 &amp; -4 \end{array}\right]\text{.}\)</p></article><article class="activity project-like" id="activity-154"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.3.12</span><span class="period">.</span>
 </h6>
-<p id="p-886">Find all the eigenvalues for the matrix \(A=\left[\begin{array}{cc} 1 &amp; -4 \\ 0 &amp; 5 \end{array}\right]\text{.}\)</p></article><article class="activity project-like" id="activity-153"><h6 class="heading">
+<p id="p-891">Find all the eigenvalues for the matrix \(A=\left[\begin{array}{cc} 1 &amp; -4 \\ 0 &amp; 5 \end{array}\right]\text{.}\)</p></article><article class="activity project-like" id="activity-155"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">5.3.13</span><span class="period">.</span>
 </h6>
-<p id="p-887">Find all the eigenvalues for the matrix \(A=\left[\begin{array}{ccc} 3 &amp; -3 &amp; 1 \\ 0 &amp; -4 &amp; 2 \\ 0 &amp; 0 &amp; 7 \end{array}\right]\text{.}\)</p></article><section class="subsection" id="subsection-25"><h3 class="heading hide-type">
+<p id="p-892">Find all the eigenvalues for the matrix \(A=\left[\begin{array}{ccc} 3 &amp; -3 &amp; 1 \\ 0 &amp; -4 &amp; 2 \\ 0 &amp; 0 &amp; 7 \end{array}\right]\text{.}\)</p></article><section class="subsection" id="subsection-25"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">5.3.1</span> <span class="title">Videos</span>
 </h3>
 <figure class="figure figure-like" id="figure-61"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><video id="video-G3" class="video" controls=""><source src="https://southalabama.hosted.panopto.com/Panopto/Podcast/Social/d05f05f3-521c-4f8e-a327-ab9f010d7ff6.mp4?mediaTargetType=videoPodcast" type="video/mp4"></source>Your browser does not support the &lt;video&gt; tag.<track label="US English" kind="subtitles" srclang="en" src="external/videos/G3-captions.vtt"></track></video></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.3.14<span class="period">.</span></span><span class="space"> </span>Video example: Finding eigenvalues</figcaption></figure></section><section class="exercises" id="exercises-24"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">5.3.2</span> <span class="title">Exercises</span>
 </h3>
-<p id="p-888"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/G3/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
+<p id="p-893"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/G3/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
 </div>
 </body>
 </html>

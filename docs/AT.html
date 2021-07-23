@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-22T21:35:48Z       *-->
+<!--*       on 2021-07-23T21:12:53Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -144,7 +144,9 @@
 </div></div>
 <nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
 <div class="navbar-top-buttons">
-<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="VS9.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="linear-algebra-for-team-based-inquiry-learning.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="AT1.html" title="Next">Next</a></span></div>
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="VS9.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="linear-algebra-for-team-based-inquiry-learning.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="AT1.html" title="Next">Next</a></span>
+</div>
 </div>
 <div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
 <button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="VS9.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="linear-algebra-for-team-based-inquiry-learning.html" title="Up">Up</a><a class="next-button button toolbar-item" href="AT1.html" title="Next">Next</a>
@@ -223,6 +225,7 @@
 <li><a href="list-of-definitions.html" data-scroll="list-of-definitions">Definitions</a></li>
 </ul>
 </li>
+<li class="link"><a href="index-1.html" data-scroll="index-1"><span class="title">Index</span></a></li>
 <li class="link"><a href="tbil-rl.html" data-scroll="tbil-rl"><span class="title">TBIL Resource Library</span></a></li>
 <li class="link"><a href="pretext.html" data-scroll="pretext"><span class="title">Authored with PreTeXt</span></a></li>
 </ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
@@ -231,33 +234,33 @@
 <span class="type">Chapter</span> <span class="codenumber">3</span> <span class="title">Algebraic Properties of Linear Maps (AT)</span>
 </h2>
 <article class="objectives goal-like" id="objectives-7"><h6 class="heading"><span class="type">Learning Outcomes</span></h6>
-<ul class="disc"><li id="li-171">
-<p id="p-409">A: How can we understand linear maps algebraically?</p>
+<ul class="disc"><li id="li-172">
+<p id="p-414">A: How can we understand linear maps algebraically?</p>
 <ul class="circle">
-<li id="li-172"><p id="p-410">A1: I can determine if a map between vector spaces of polynomials is linear or not.</p></li>
-<li id="li-173"><p id="p-411">A2: I can translate back and forth between a linear transformation of Euclidean spaces and its standard matrix, and perform related computations.</p></li>
-<li id="li-174"><p id="p-412">A3: I can compute a basis for the kernel and a basis for the image of a linear map, and verify that the rank-nullity theorem holds for a given linear map.</p></li>
-<li id="li-175"><p id="p-413">A4: I can determine if a given linear map is injective and/or surjective.</p></li>
+<li id="li-173"><p id="p-415">A1: I can determine if a map between vector spaces of polynomials is linear or not.</p></li>
+<li id="li-174"><p id="p-416">A2: I can translate back and forth between a linear transformation of Euclidean spaces and its standard matrix, and perform related computations.</p></li>
+<li id="li-175"><p id="p-417">A3: I can compute a basis for the kernel and a basis for the image of a linear map, and verify that the rank-nullity theorem holds for a given linear map.</p></li>
+<li id="li-176"><p id="p-418">A4: I can determine if a given linear map is injective and/or surjective.</p></li>
 </ul>
 </li></ul></article><section class="introduction" id="AT-intro"><h6 class="heading">Readiness Assurance.<span></span>
 </h6>
-<p id="p-414">Before beginning this chapter, you should be able to...</p>
+<p id="p-419">Before beginning this chapter, you should be able to...</p>
 <ol class="lower-alpha">
-<li id="li-176">
-<p id="p-415">State the definition of a spanning set, and determine if a set of Euclidean vectors spans \(\IR^n\text{.}\)</p>
-<ul class="disc"><li id="li-177"><p id="p-416">Review: <a href="VS3.html" class="internal" title="Section 2.3: Spanning Sets (VS3)">Section 2.3</a></p></li></ul>
+<li id="li-177">
+<p id="p-420">State the definition of a spanning set, and determine if a set of Euclidean vectors spans \(\IR^n\text{.}\)</p>
+<ul class="disc"><li id="li-178"><p id="p-421">Review: <a href="VS3.html" class="internal" title="Section 2.3: Spanning Sets (VS3)">Section 2.3</a></p></li></ul>
 </li>
-<li id="li-178">
-<p id="p-417">State the definition of linear independence, and determine if a set of Euclidean vectors is linearly dependent or independent</p>
-<ul class="disc"><li id="li-179"><p id="p-418">Review: <a href="VS5.html" class="internal" title="Section 2.5: Linear Independence (VS5)">Section 2.5</a></p></li></ul>
+<li id="li-179">
+<p id="p-422">State the definition of linear independence, and determine if a set of Euclidean vectors is linearly dependent or independent</p>
+<ul class="disc"><li id="li-180"><p id="p-423">Review: <a href="VS5.html" class="internal" title="Section 2.5: Linear Independence (VS5)">Section 2.5</a></p></li></ul>
 </li>
-<li id="li-180">
-<p id="p-419">State the definition of a basis, and determine if a set of Euclidean vectors is a basis</p>
-<ul class="disc"><li id="li-181"><p id="p-420">Review: <a href="VS6.html" class="internal" title="Section 2.6: Identifying a Basis (VS6)">Section 2.6</a>, <a href="VS7.html" class="internal" title="Section 2.7: Subspace Basis and Dimension (VS7)">Section 2.7</a></p></li></ul>
+<li id="li-181">
+<p id="p-424">State the definition of a basis, and determine if a set of Euclidean vectors is a basis</p>
+<ul class="disc"><li id="li-182"><p id="p-425">Review: <a href="VS6.html" class="internal" title="Section 2.6: Identifying a Basis (VS6)">Section 2.6</a>, <a href="VS7.html" class="internal" title="Section 2.7: Subspace Basis and Dimension (VS7)">Section 2.7</a></p></li></ul>
 </li>
-<li id="li-182">
-<p id="p-421">Find a basis of the solution space to a homogeneous system of linear equations</p>
-<ul class="disc"><li id="li-183"><p id="p-422">Review: <a href="VS9.html" class="internal" title="Section 2.9: Homogeneous Linear Systems (VS9)">Section 2.9</a></p></li></ul>
+<li id="li-183">
+<p id="p-426">Find a basis of the solution space to a homogeneous system of linear equations</p>
+<ul class="disc"><li id="li-184"><p id="p-427">Review: <a href="VS9.html" class="internal" title="Section 2.9: Homogeneous Linear Systems (VS9)">Section 2.9</a></p></li></ul>
 </li>
 </ol></section><nav class="summary-links"><ul>
 <li><a href="AT1.html"><span class="codenumber">3.1</span> <span class="title">Linear Transformations (AT1)</span></a></li>
