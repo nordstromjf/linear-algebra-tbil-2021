@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-23T21:12:53Z       *-->
+<!--*       on 2021-07-26T18:43:06Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -220,20 +220,20 @@
 <article class="definition definition-like" id="definition-17"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.1</span><span class="period">.</span>
 </h6>
-<p id="p-428">A <dfn class="terminology">linear transformation</dfn> (also called a <dfn class="terminology">linear map</dfn>) is a map between vector spaces that preserves the vector space operations. More precisely, if \(V\) and \(W\) are vector spaces, a map \(T:V\rightarrow W\) is called a linear transformation if</p>
+<p id="p-432">A <dfn class="terminology">linear transformation</dfn> (also called a <dfn class="terminology">linear map</dfn>) is a map between vector spaces that preserves the vector space operations. More precisely, if \(V\) and \(W\) are vector spaces, a map \(T:V\rightarrow W\) is called a linear transformation if</p>
 <ol class="decimal">
-<li id="li-185"><p id="p-429">\(T(\vec{v}+\vec{w}) = T(\vec{v})+T(\vec{w})\) for any \(\vec{v},\vec{w} \in V\text{,}\) and</p></li>
-<li id="li-186"><p id="p-430">\(T(c\vec{v}) = cT(\vec{v})\) for any \(c \in \IR,\) and \(\vec{v} \in V\text{.}\)</p></li>
+<li id="li-188"><p id="p-433">\(T(\vec{v}+\vec{w}) = T(\vec{v})+T(\vec{w})\) for any \(\vec{v},\vec{w} \in V\text{,}\) and</p></li>
+<li id="li-189"><p id="p-434">\(T(c\vec{v}) = cT(\vec{v})\) for any \(c \in \IR,\) and \(\vec{v} \in V\text{.}\)</p></li>
 </ol>
 <p class="continuation">In other words, a map is linear when vector space operations can be applied before or after the transformation without affecting the result.</p></article><article class="definition definition-like" id="definition-18"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.1.2</span><span class="period">.</span>
 </h6>
-<p id="p-431">Given a linear transformation \(T:V\to W\text{,}\) \(V\) is called the <dfn class="terminology">domain</dfn> of \(T\) and \(W\) is called the <dfn class="terminology">co-domain</dfn> of \(T\text{.}\)</p>
+<p id="p-435">Given a linear transformation \(T:V\to W\text{,}\) \(V\) is called the <dfn class="terminology">domain</dfn> of \(T\) and \(W\) is called the <dfn class="terminology">co-domain</dfn> of \(T\text{.}\)</p>
 <figure class="figure figure-like" id="figure-21"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-8.svg" role="img" class="contained" alt=""></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.3<span class="period">.</span></span><span class="space"> </span>A linear transformation with a domain of \(\IR^3\) and a co-domain of \(\IR^2\)</figcaption></figure></article><article class="example example-like" id="example-2"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.4</span><span class="period">.</span>
 </h6>
-<p id="p-432">Let \(T : \IR^3 \rightarrow \IR^2\) be given by</p>
+<p id="p-436">Let \(T : \IR^3 \rightarrow \IR^2\) be given by</p>
 <div class="displaymath">
 \begin{equation*}
 T\left(\left[\begin{array}{c} x \\ y \\ z \end{array}\right] \right)
@@ -241,7 +241,7 @@ T\left(\left[\begin{array}{c} x \\ y \\ z \end{array}\right] \right)
 \left[\begin{array}{c} x-z \\ 3y \end{array}\right].
 \end{equation*}
 </div>
-<p id="p-433">To show that \(T\) is a linear transformation, we must verify that \(T(\vec{v}+\vec{w}) = T(\vec{v})+T(\vec{w})\) by computing</p>
+<p id="p-437">To show that \(T\) is a linear transformation, we must verify that \(T(\vec{v}+\vec{w}) = T(\vec{v})+T(\vec{w})\) by computing</p>
 <div class="displaymath">
 \begin{equation*}
 T\left(
@@ -285,10 +285,10 @@ c\left[\begin{array}{c} x-z \\ 3y \end{array}\right]
 \left[\begin{array}{c} cx-cz \\ 3cy \end{array}\right]\text{.}
 \end{equation*}
 </div>
-<p id="p-434">Therefore \(T\) is a linear transformation.</p></article><article class="example example-like" id="example-3"><h6 class="heading">
+<p id="p-438">Therefore \(T\) is a linear transformation.</p></article><article class="example example-like" id="example-3"><h6 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">3.1.5</span><span class="period">.</span>
 </h6>
-<p id="p-435">Let \(S : \IR^2 \rightarrow \IR^4\) be given by</p>
+<p id="p-439">Let \(S : \IR^2 \rightarrow \IR^4\) be given by</p>
 <div class="displaymath">
 \begin{equation*}
 S\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
@@ -296,7 +296,7 @@ S\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
 \left[\begin{array}{c} x+y \\ x^2 \\ y+3 \\ y-2^x \end{array}\right]
 \end{equation*}
 </div>
-<p id="p-436">To show that \(S\) is not linear, we only need to find one counterexample.</p>
+<p id="p-440">To show that \(S\) is not linear, we only need to find one counterexample.</p>
 <div class="displaymath">
 \begin{equation*}
 S\left(
@@ -324,11 +324,11 @@ S\left(
 \left[\begin{array}{c} 6 \\ 4 \\ 10 \\ -1 \end{array}\right]
 \end{equation*}
 </div>
-<p id="p-437">Since the resulting vectors are different, \(S\) is not a linear transformation.</p></article><article class="fact theorem-like" id="fact-13"><h6 class="heading">
+<p id="p-441">Since the resulting vectors are different, \(S\) is not a linear transformation.</p></article><article class="fact theorem-like" id="fact-13"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">3.1.6</span><span class="period">.</span>
 </h6>
-<p id="p-438">A map between Euclidean spaces \(T:\IR^n\to\IR^m\) is linear exactly when every component of the output is a linear combination of the variables of \(\IR^n\text{.}\)</p>
-<p id="p-439">For example, the following map is definitely linear because \(x-z\) and \(3y\) are linear combinations of \(x,y,z\text{:}\)</p>
+<p id="p-442">A map between Euclidean spaces \(T:\IR^n\to\IR^m\) is linear exactly when every component of the output is a linear combination of the variables of \(\IR^n\text{.}\)</p>
+<p id="p-443">For example, the following map is definitely linear because \(x-z\) and \(3y\) are linear combinations of \(x,y,z\text{:}\)</p>
 <div class="displaymath">
 \begin{equation*}
 T\left(\left[\begin{array}{c} x \\ y \\ z \end{array}\right] \right)
@@ -338,7 +338,7 @@ T\left(\left[\begin{array}{c} x \\ y \\ z \end{array}\right] \right)
 \left[\begin{array}{c} 1x+0y-1z \\ 0x+3y+0z \end{array}\right]
 \end{equation*}
 </div>
-<p id="p-440">But the map below is not linear because \(x^2\text{,}\) \(y+3\text{,}\) and \(y-2^x\) are not linear combinations (even though \(x+y\) is):</p>
+<p id="p-444">But the map below is not linear because \(x^2\text{,}\) \(y+3\text{,}\) and \(y-2^x\) are not linear combinations (even though \(x+y\) is):</p>
 <div class="displaymath">
 \begin{equation*}
 S\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
@@ -348,7 +348,7 @@ S\left(\left[\begin{array}{c} x \\ y \end{array}\right] \right)
 </div></article><article class="activity project-like" id="activity-78"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.7</span><span class="period">.</span>
 </h6>
-<p id="p-441">Let \(D:\P\to\P\) be the derivative map defined by \(D(f(x))=f'(x)\) for each polynomial \(f \in \P\text{.}\) We recall from calculus that</p>
+<p id="p-445">Let \(D:\P\to\P\) be the derivative map defined by \(D(f(x))=f'(x)\) for each polynomial \(f \in \P\text{.}\) We recall from calculus that</p>
 <div class="displaymath">
 \begin{equation*}
 D(f+g)=f'(x)+g'(x)\text{,}
@@ -358,25 +358,25 @@ D(f+g)=f'(x)+g'(x)\text{,}
 D(cf(x))=cf'(x)\text{.}
 \end{equation*}
 </div>
-<p id="p-442">Which of the following can we conclude from these calculus rules?</p>
+<p id="p-446">Which of the following can we conclude from these calculus rules?</p>
 <ol class="lower-alpha">
-<li id="li-187"><p id="p-443">\(\P\) is not a vector space</p></li>
-<li id="li-188"><p id="p-444">\(D\) is a linear map</p></li>
-<li id="li-189"><p id="p-445">\(D\) is not a linear map</p></li>
+<li id="li-190"><p id="p-447">\(\P\) is not a vector space</p></li>
+<li id="li-191"><p id="p-448">\(D\) is a linear map</p></li>
+<li id="li-192"><p id="p-449">\(D\) is not a linear map</p></li>
 </ol></article><article class="activity project-like" id="activity-79"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.8</span><span class="period">.</span>
 </h6>
-<p id="p-446">Let the polynomial maps \(S: \P_4 \rightarrow \P_3\) and \(T: \P_4 \rightarrow \P_3\) be defined by</p>
+<p id="p-450">Let the polynomial maps \(S: \P_4 \rightarrow \P_3\) and \(T: \P_4 \rightarrow \P_3\) be defined by</p>
 <div class="displaymath">
 \begin{equation*}
 S(f(x)) = 2f'(x)-f''(x) \hspace{3em} T(f(x)) = f'(x)+x^3\text{.}
 \end{equation*}
 </div>
-<p id="p-447">Compute \(S(x^4+x)\text{,}\) \(S(x^4)+S(x)\text{,}\) \(T(x^4+x)\text{,}\) and \(T(x^4)+T(x)\text{.}\) Based on these computations, can you conclude that either \(S\) or \(T\) is definitely not a linear transformation?</p></article><article class="fact theorem-like" id="fact-14"><h6 class="heading">
+<p id="p-451">Compute \(S(x^4+x)\text{,}\) \(S(x^4)+S(x)\text{,}\) \(T(x^4+x)\text{,}\) and \(T(x^4)+T(x)\text{.}\) Based on these computations, can you conclude that either \(S\) or \(T\) is definitely not a linear transformation?</p></article><article class="fact theorem-like" id="fact-14"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">3.1.9</span><span class="period">.</span>
 </h6>
-<p id="p-448">If \(L:V\to W\) is a linear transformation, then \(L(\vec z)=L(0\vec v)=0L(\vec v)=\vec z\) where \(\vec z\) is the additive identity of the vector spaces \(V,W\text{.}\)</p>
-<p id="p-449">Put another way, an easy way to prove that a map like \(T(f(x)) = f'(x)+x^3\) can not be linear is to check that</p>
+<p id="p-452">If \(L:V\to W\) is a linear transformation, then \(L(\vec z)=L(0\vec v)=0L(\vec v)=\vec z\) where \(\vec z\) is the additive identity of the vector spaces \(V,W\text{.}\)</p>
+<p id="p-453">Put another way, an easy way to prove that a map like \(T(f(x)) = f'(x)+x^3\) can not be linear is to check that</p>
 <div class="displaymath">
 \begin{equation*}
 T(0)=\frac{d}{dx}[0]+x^3=0+x^3=x^3\not=0.
@@ -384,22 +384,22 @@ T(0)=\frac{d}{dx}[0]+x^3=0+x^3=x^3\not=0.
 </div></article><article class="observation remark-like" id="observation-17"><h6 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">3.1.10</span><span class="period">.</span>
 </h6>
-<p id="p-450">Showing \(T:V\to W\) is not a linear transformation can be done by finding an example for any one of the following.</p>
+<p id="p-454">Showing \(T:V\to W\) is not a linear transformation can be done by finding an example for any one of the following.</p>
 <ul class="disc">
-<li id="li-190"><p id="p-451">Show \(T(\vec z)\not=\vec z\) (where \(\vec z\) is the additive identity of \(V\) and \(W\)).</p></li>
-<li id="li-191"><p id="p-452">Find \(\vec v,\vec w\in V\) such that \(T(\vec v+\vec w)\not=T(\vec v)+T(\vec w)\text{.}\)</p></li>
-<li id="li-192"><p id="p-453">Find \(\vec v\in V\) and \(c\in \IR\) such that \(T(c\vec v)\not=cT(\vec v)\text{.}\)</p></li>
+<li id="li-193"><p id="p-455">Show \(T(\vec z)\not=\vec z\) (where \(\vec z\) is the additive identity of \(V\) and \(W\)).</p></li>
+<li id="li-194"><p id="p-456">Find \(\vec v,\vec w\in V\) such that \(T(\vec v+\vec w)\not=T(\vec v)+T(\vec w)\text{.}\)</p></li>
+<li id="li-195"><p id="p-457">Find \(\vec v\in V\) and \(c\in \IR\) such that \(T(c\vec v)\not=cT(\vec v)\text{.}\)</p></li>
 </ul>
-<p id="p-454">Otherwise, \(T\) can be shown to be linear by proving the following in general.</p>
+<p id="p-458">Otherwise, \(T\) can be shown to be linear by proving the following in general.</p>
 <ul class="disc">
-<li id="li-193"><p id="p-455">For all \(\vec v,\vec w\in V\text{,}\) \(T(\vec v+\vec w)=T(\vec v)+T(\vec w)\text{.}\)</p></li>
-<li id="li-194"><p id="p-456">For all \(\vec v\in V\) and \(c\in \IR\text{,}\) \(T(c\vec v)=cT(\vec v)\text{.}\)</p></li>
+<li id="li-196"><p id="p-459">For all \(\vec v,\vec w\in V\text{,}\) \(T(\vec v+\vec w)=T(\vec v)+T(\vec w)\text{.}\)</p></li>
+<li id="li-197"><p id="p-460">For all \(\vec v\in V\) and \(c\in \IR\text{,}\) \(T(c\vec v)=cT(\vec v)\text{.}\)</p></li>
 </ul>
-<p id="p-457">Note the similarities between this process and showing that a subset of a vector space is or is not a subspace.</p></article><article class="activity project-like" id="activity-80"><h6 class="heading">
+<p id="p-461">Note the similarities between this process and showing that a subset of a vector space is or is not a subspace.</p></article><article class="activity project-like" id="activity-80"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.11</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-33">
-<p id="p-458">Continue to consider \(S: \P_4 \rightarrow \P_3\) defined by</p>
+<p id="p-462">Continue to consider \(S: \P_4 \rightarrow \P_3\) defined by</p>
 <div class="displaymath">
 \begin{equation*}
 S(f(x)) = 2f'(x)-f''(x)
@@ -407,19 +407,19 @@ S(f(x)) = 2f'(x)-f''(x)
 </div>
 </div>
 <article class="task exercise-like" id="task-67"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-459">Verify that</p>
+<p id="p-463">Verify that</p>
 <div class="displaymath">
 \begin{equation*}
 S(f(x)+g(x))=2f'(x)+2g'(x)-f''(x)-g''(x)
 \end{equation*}
 </div>
 <p class="continuation">is equal to \(S(f(x))+S(g(x))\) for all polynomials \(f,g \in \P_4\text{.}\)</p></article><article class="task exercise-like" id="task-68"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-460">Verify that \(S(cf(x))\) is equal to \(cS(f(x))\) for all real numbers \(c\) and polynomials \(f \in \P_4\text{.}\)</p></article><article class="task exercise-like" id="task-69"><h6 class="heading"><span class="codenumber">(c)</span></h6>
-<p id="p-461">Is \(S\) linear?</p></article></article><article class="activity project-like" id="activity-81"><h6 class="heading">
+<p id="p-464">Verify that \(S(cf(x))\) is equal to \(cS(f(x))\) for all real numbers \(c\) and polynomials \(f \in \P_4\text{.}\)</p></article><article class="task exercise-like" id="task-69"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-465">Is \(S\) linear?</p></article></article><article class="activity project-like" id="activity-81"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">3.1.12</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-34">
-<p id="p-462">Let polynomial maps \(S: \P \rightarrow \P\) and \(T: \P \rightarrow \P\) be defined by</p>
+<p id="p-466">Let polynomial maps \(S: \P \rightarrow \P\) and \(T: \P \rightarrow \P\) be defined by</p>
 <div class="displaymath">
 \begin{equation*}
 S(f(x)) = (f(x))^2 \hspace{3em} T(f(x)) = 3xf(x^2)
@@ -427,8 +427,8 @@ S(f(x)) = (f(x))^2 \hspace{3em} T(f(x)) = 3xf(x^2)
 </div>
 </div>
 <article class="task exercise-like" id="task-70"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-463">Note that \(S(0)=0\) and \(T(0)=0\text{.}\) So instead, show that \(S(x+1)\not= S(x)+S(1)\) to verify that \(S\) is not linear.</p></article><article class="task exercise-like" id="task-71"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-464">Prove that \(T\) is linear by verifying that \(T(f(x)+g(x))=T(f(x))+T(g(x))\) and \(T(cf(x))=cT(f(x))\text{.}\)</p></article></article><section class="subsection" id="subsection-15"><h3 class="heading hide-type">
+<p id="p-467">Note that \(S(0)=0\) and \(T(0)=0\text{.}\) So instead, show that \(S(x+1)\not= S(x)+S(1)\) to verify that \(S\) is not linear.</p></article><article class="task exercise-like" id="task-71"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-468">Prove that \(T\) is linear by verifying that \(T(f(x)+g(x))=T(f(x))+T(g(x))\) and \(T(cf(x))=cT(f(x))\text{.}\)</p></article></article><section class="subsection" id="subsection-15"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">3.1.1</span> <span class="title">Videos</span>
 </h3>
 <figure class="figure figure-like" id="figure-22"><div class="video-box" style="width: 100%;padding-top: 56.25%; margin-left: 0%; margin-right: 0%;"><video id="video-A1-1" class="video" controls=""><source src="https://southalabama.hosted.panopto.com/Panopto/Podcast/Social/4eea8aa5-0b9c-48b6-aaf7-ac52011af56c.mp4?mediaTargetType=videoPodcast" type="video/mp4"></source>Your browser does not support the &lt;video&gt; tag.<track label="US English" kind="subtitles" srclang="en" src="external/videos/A1-1-captions.vtt"></track></video></div>
@@ -436,7 +436,7 @@ S(f(x)) = (f(x))^2 \hspace{3em} T(f(x)) = 3xf(x^2)
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.1.14<span class="period">.</span></span><span class="space"> </span>Video example: Showing a transformation is not linear</figcaption></figure></section><section class="exercises" id="exercises-14"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">3.1.2</span> <span class="title">Exercises</span>
 </h3>
-<p id="p-465"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/A1/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
+<p id="p-469"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/A1/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
 </div>
 </body>
 </html>

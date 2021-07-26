@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-23T21:12:53Z       *-->
+<!--*       on 2021-07-26T18:43:06Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -236,13 +236,13 @@
 <article class="observation remark-like" id="observation-12"><h6 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">2.7.1</span><span class="period">.</span>
 </h6>
-<p id="p-359">Recall that a <dfn class="terminology">subspace</dfn> of a vector space is a subset that is itself a vector space.</p>
-<p id="p-360">One easy way to construct a subspace is to take the span of set, but a linearly dependent set contains “redundant” vectors. For example, only two of the three vectors in the following image are needed to span the planar subspace.</p>
+<p id="p-363">Recall that a <dfn class="terminology">subspace</dfn> of a vector space is a subset that is itself a vector space.</p>
+<p id="p-364">One easy way to construct a subspace is to take the span of set, but a linearly dependent set contains “redundant” vectors. For example, only two of the three vectors in the following image are needed to span the planar subspace.</p>
 <figure class="figure figure-like" id="figure-17"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-7.svg" role="img" class="contained" alt=""></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.2<span class="period">.</span></span><span class="space"> </span>A linearly dependent set of three vectors</figcaption></figure></article><article class="activity project-like" id="activity-65"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.3</span><span class="period">.</span>
 </h6>
-<div class="introduction" id="introduction-29"><p id="p-361">Consider the subspace of \(\IR^4\) given by \(W=\vspan\left\{
+<div class="introduction" id="introduction-29"><p id="p-365">Consider the subspace of \(\IR^4\) given by \(W=\vspan\left\{
 \left[\begin{array}{c}2\\3\\0\\1\end{array}\right],
 \left[\begin{array}{c}2\\0\\1\\-1\end{array}\right],
 \left[\begin{array}{c}2\\-3\\2\\-3\end{array}\right],
@@ -250,19 +250,19 @@
 \right\}
 \text{.}\)</p></div>
 <article class="task exercise-like" id="task-60"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-362">Mark the part of \(\RREF\left[\begin{array}{cccc}
+<p id="p-366">Mark the part of \(\RREF\left[\begin{array}{cccc}
 2&amp;2&amp;2&amp;1\\
 3&amp;0&amp;-3&amp;5\\
 0&amp;1&amp;2&amp;-1\\
 1&amp;-1&amp;-3&amp;0
 \end{array}\right]\) that shows that \(W\)'s spanning set is linearly dependent.</p></article><article class="task exercise-like" id="task-61"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-363">Find a basis for \(W\) by removing a vector from its spanning set to make it linearly independent.</p></article></article><div class="sagecell-octave" id="sage-19"><script type="text/x-sage">rref([2,2,2,1; 3,0,-3,5; 0,1,2,-1; 1,-1,-3,0])
+<p id="p-367">Find a basis for \(W\) by removing a vector from its spanning set to make it linearly independent.</p></article></article><div class="sagecell-octave" id="sage-19"><script type="text/x-sage">rref([2,2,2,1; 3,0,-3,5; 0,1,2,-1; 1,-1,-3,0])
 </script></div>
 <article class="fact theorem-like" id="fact-9"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.7.4</span><span class="period">.</span>
 </h6>
-<p id="p-364">Let \(S=\{\vec v_1,\dots,\vec v_m\}\text{.}\) The easiest basis describing \(\vspan S\) is the set of vectors in \(S\) given by the pivot columns of \(\RREF[\vec v_1\,\dots\,\vec v_m]\text{.}\)</p>
-<p id="p-365">Put another way, to compute a basis for the subspace \(\vspan S\text{,}\) simply remove the vectors corresponding to the non-pivot columns of \(\RREF[\vec v_1\,\dots\,\vec v_m]\text{.}\) For example, since</p>
+<p id="p-368">Let \(S=\{\vec v_1,\dots,\vec v_m\}\text{.}\) The easiest basis describing \(\vspan S\) is the set of vectors in \(S\) given by the pivot columns of \(\RREF[\vec v_1\,\dots\,\vec v_m]\text{.}\)</p>
+<p id="p-369">Put another way, to compute a basis for the subspace \(\vspan S\text{,}\) simply remove the vectors corresponding to the non-pivot columns of \(\RREF[\vec v_1\,\dots\,\vec v_m]\text{.}\) For example, since</p>
 <div class="displaymath">
 \begin{equation*}
 \RREF
@@ -289,7 +289,7 @@
 }\) as a basis.</p></article><article class="activity project-like" id="activity-66"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.5</span><span class="period">.</span>
 </h6>
-<p id="p-366">Let \(W\) be the subspace of \(\IR^4\) given by</p>
+<p id="p-370">Let \(W\) be the subspace of \(\IR^4\) given by</p>
 <div class="displaymath">
 \begin{equation*}
 W = \vspan \left\{
@@ -304,7 +304,7 @@ W = \vspan \left\{
 <article class="activity project-like" id="activity-67"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.6</span><span class="period">.</span>
 </h6>
-<p id="p-367">Let \(W\) be the subspace of \(\P_3\) given by</p>
+<p id="p-371">Let \(W\) be the subspace of \(\P_3\) given by</p>
 <div class="displaymath">
 \begin{equation*}
 W = \vspan \left\{x^3+3x^2+x-1, 2x^3-x^2+x+2, 4x^3+5x^2+3x, 3x^3+2x^2+2x+1 \right\} 
@@ -314,7 +314,7 @@ W = \vspan \left\{x^3+3x^2+x-1, 2x^3-x^2+x+2, 4x^3+5x^2+3x, 3x^3+2x^2+2x+1 \righ
 <article class="activity project-like" id="activity-68"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.7</span><span class="period">.</span>
 </h6>
-<p id="p-368">Let \(W\) be the subspace of \(M_{2,2}\) given by</p>
+<p id="p-372">Let \(W\) be the subspace of \(M_{2,2}\) given by</p>
 <div class="displaymath">
 \begin{equation*}
 W = \vspan \left\{
@@ -330,7 +330,7 @@ W = \vspan \left\{
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.8</span><span class="period">.</span>
 </h6>
 <div class="introduction" id="introduction-30">
-<p id="p-369">Let</p>
+<p id="p-373">Let</p>
 <div class="displaymath">
 \begin{equation*}
 S=\left\{
@@ -354,12 +354,12 @@ T=\left\{
 </div>
 </div>
 <article class="task exercise-like" id="task-62"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-370">Find a basis for \(\vspan S\text{.}\)</p></article><article class="task exercise-like" id="task-63"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-371">Find a basis for \(\vspan T\text{.}\)</p></article></article><div class="sagecell-octave" id="sage-23"><script type="text/x-sage"></script></div>
+<p id="p-374">Find a basis for \(\vspan S\text{.}\)</p></article><article class="task exercise-like" id="task-63"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-375">Find a basis for \(\vspan T\text{.}\)</p></article></article><div class="sagecell-octave" id="sage-23"><script type="text/x-sage"></script></div>
 <article class="observation remark-like" id="observation-13"><h6 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">2.7.9</span><span class="period">.</span>
 </h6>
-<p id="p-372">Even though we found different bases for them, \(\vspan S\) and \(\vspan T\) are exactly the same subspace of \(\IR^4\text{,}\) since</p>
+<p id="p-376">Even though we found different bases for them, \(\vspan S\) and \(\vspan T\) are exactly the same subspace of \(\IR^4\text{,}\) since</p>
 <div class="displaymath">
 \begin{equation*}
 S=\left\{
@@ -379,8 +379,8 @@ S=\left\{
 </div></article><article class="fact theorem-like" id="fact-10"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.7.10</span><span class="period">.</span>
 </h6>
-<p id="p-373">Any non-trivial vector space has infinitely-many different bases, but all the bases for a given vector space are exactly the same size.</p>
-<p id="p-374">For example,</p>
+<p id="p-377">Any non-trivial vector space has infinitely-many different bases, but all the bases for a given vector space are exactly the same size.</p>
+<p id="p-378">For example,</p>
 <div class="displaymath">
 \begin{equation*}
 \setList{\vec e_1,\vec e_2,\vec e_3}
@@ -401,8 +401,8 @@ S=\left\{
 <p class="continuation">are all valid bases for \(\IR^3\text{,}\) and they all contain three vectors.</p></article><article class="definition definition-like" id="definition-15"><h6 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7.11</span><span class="period">.</span>
 </h6>
-<p id="p-375">The <dfn class="terminology">dimension</dfn> of a vector space is equal to the size of any basis for the vector space.</p>
-<p id="p-376">As you'd expect, \(\IR^n\) has dimension \(n\text{.}\) For example, \(\IR^3\) has dimension \(3\) because any basis for \(\IR^3\) such as</p>
+<p id="p-379">The <dfn class="terminology">dimension</dfn> of a vector space is equal to the size of any basis for the vector space.</p>
+<p id="p-380">As you'd expect, \(\IR^n\) has dimension \(n\text{.}\) For example, \(\IR^3\) has dimension \(3\) because any basis for \(\IR^3\) such as</p>
 <div class="displaymath">
 \begin{equation*}
 \setList{\vec e_1,\vec e_2,\vec e_3}
@@ -423,7 +423,7 @@ S=\left\{
 <p class="continuation">contains exactly three vectors.</p></article><article class="activity project-like" id="activity-70"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.7.12</span><span class="period">.</span>
 </h6>
-<p id="p-377">Find the dimension of each subspace of \(\IR^4\) by finding \(\RREF\) for each corresponding matrix.</p>
+<p id="p-381">Find the dimension of each subspace of \(\IR^4\) by finding \(\RREF\) for each corresponding matrix.</p>
 <div class="displaymath">
 \begin{equation*}
 \vspan\left\{
@@ -471,7 +471,7 @@ S=\left\{
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.7.13<span class="period">.</span></span><span class="space"> </span>Video example: Finding a basis of a subspace and computing the dimension of a subspace</figcaption></figure></section><section class="exercises" id="exercises-11"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">2.7.2</span> <span class="title">Exercises</span>
 </h3>
-<p id="p-378"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/V7/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
+<p id="p-382"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/V7/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
 </div>
 </body>
 </html>
