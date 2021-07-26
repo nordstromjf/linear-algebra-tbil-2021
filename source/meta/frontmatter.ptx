@@ -60,5 +60,22 @@
 
     <xi:include href="./copyright.ptx" />
 
+      <p>
+This work includes materials used under license from the following works:
+      </p>
+      <ul>
+          <li>
+              <p><pubtitle>Understanding Linear Algebra</pubtitle></p>
+              <ul>
+                  <li>
+                      <p><url href="https://davidaustinm.github.io/ula/"/></p>
+                  </li>
+                  <li>
+                      <p>CC BY 4.0</p>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+
   </colophon>
       </frontmatter>
