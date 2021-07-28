@@ -59,7 +59,7 @@
     </statement>
 </definition>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Following are seven procedures used to manipulate an augmented matrix.
@@ -129,7 +129,7 @@
     </statement>
     </definition>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Consider the following (equivalent) linear systems.
@@ -223,7 +223,7 @@
 </activity>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
 We can rewrite the previous in terms of  equivalences of augmented matrices
@@ -269,7 +269,7 @@ Every matrix has a unique reduced row echelon form. If <m>A</m> is a matrix, we 
     </statement>
 </definition>
 
-<activity tbil-time='8'>
+<activity estimated-time='8'>
     <statement>
         <p>
 Recall that a matrix is in <term>reduced row echelon form</term> (<term>RREF</term>) if
@@ -297,7 +297,7 @@ For the ones not in RREF, find their RREF.
     </statement>
 </activity>
 
-<activity tbil-time='8'>
+<activity estimated-time='8'>
     <statement>
         <p>
 Recall that a matrix is in <term>reduced row echelon form</term> (<term>RREF</term>) if
@@ -338,7 +338,7 @@ in many applications we use it for in Module V.
     </p>
 </remark>
 
-<activity tbil-time='8'>
+<activity estimated-time='8'>
     <statement>
     <p>
 Consider the matrix
@@ -358,7 +358,7 @@ Which row operation is the best choice for the first move in converting to RREF?
         </statement>
 </activity>
 
-<activity tbil-time='7'>
+<activity estimated-time='7'>
     <statement>
         <p>
 Consider the matrix
@@ -378,7 +378,7 @@ Which row operation is the best choice for the next move in converting to RREF?
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Consider the matrix
@@ -398,7 +398,7 @@ Which row operation is the best choice for the next move in converting to RREF?
     </statement>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Consider the matrix
@@ -417,7 +417,7 @@ Finish putting it in RREF.
 </task>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Consider the matrix
@@ -429,7 +429,7 @@ Compute <m>\RREF(A)</m>.
     </statement>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Consider the matrix

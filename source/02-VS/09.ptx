@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS9" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homogeneous Linear Systems (VS9)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/09.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <definition>
     <statement>
@@ -37,7 +44,7 @@ A <term>homogeneous</term> system of linear equations is one of the form:
     </statement>
 </definition>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
 Note that if <m>\left[\begin{array}{c} a_1 \\ \vdots \\ a_n \end{array}\right] </m> and
@@ -74,7 +81,7 @@ Thus the solution set of a homogeneous system is...
     </statement>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Consider the homogeneous system of equations
@@ -142,7 +149,7 @@ Rewrite this solution space in the form <me>\vspan\left\{\left[\begin{array}{c} 
 
 
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Consider the homogeneous system of equations
@@ -167,7 +174,7 @@ Find a basis for its solution space.
 </sage>
 
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Consider the homogeneous vector equation
@@ -188,7 +195,7 @@ Find a basis for its solution space.
 </sage>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Consider the homogeneous system of equations

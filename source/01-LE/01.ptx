@@ -201,7 +201,7 @@ system). Otherwise it is <term>inconsistent</term>.<idx><h>linear system</h><h>i
         </statement>
     </fact>
 
-    <activity tbil-time="10">
+    <activity estimated-time="10">
         <statement>
             <p>
 All inconsistent linear systems contain a logical <term>contradiction</term>.
@@ -219,7 +219,7 @@ All inconsistent linear systems contain a logical <term>contradiction</term>.
         </statement>
     </activity>
 
-    <activity tbil-time="10">
+    <activity estimated-time="10">
         <introduction>
         <p>
   Consider the following consistent linear system.
@@ -260,7 +260,7 @@ All inconsistent linear systems contain a logical <term>contradiction</term>.
         </task>
     </activity>
 
-    <activity tbil-time="10">
+    <activity estimated-time="10">
         <statement>
             <p>
   Consider the following linear system.

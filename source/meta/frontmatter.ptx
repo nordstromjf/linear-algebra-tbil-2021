@@ -5,7 +5,7 @@
             <personname>Steven Clontz</personname>
             <department>Department of Mathematics and Statistics</department>
             <institution>University of South Alabama</institution>
-            <email>steven.clontz@gmail.com</email>
+            <email>sclontz@southalabama.edu</email>
         </author>
         <author>
             <personname>Drew Lewis</personname>
@@ -78,4 +78,5 @@ This work includes materials used under license from the following works:
       </ul>
 
   </colophon>
+    <xi:include href="./slideshow.ptx" />
       </frontmatter>

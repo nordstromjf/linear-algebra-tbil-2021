@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS4" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Subspaces (VS4)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/04.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 
 
@@ -76,7 +83,7 @@ Think about the answers to the following questions:
     </statement>
 </fact>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Let <m>S=\setBuilder{\left[\begin{array}{c} x \\ y \\ z \end{array}\right]}{ x+2y+z=0}</m>.
@@ -107,7 +114,7 @@ Let <m>S=\setBuilder{\left[\begin{array}{c} x \\ y \\ z \end{array}\right]}{ x+2
 </task>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>S=\setBuilder{\left[\begin{array}{c} x \\ y \\ z \end{array}\right]}{ x+2y+z=4}</m>.
@@ -164,7 +171,7 @@ by doing the following:
 </ul>
 </remark>
 
-<activity tbil-time='20'>
+<activity estimated-time='20'>
     <introduction>
         <p>
   Consider these subsets of <m>\IR^3</m>:
@@ -199,7 +206,7 @@ by doing the following:
   </task>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Consider these subsets of <m>M_{2 \times 2}</m>, the vector space of all <m> 2 \times 2</m> matrices with real entries. Show that each of these sets is or is not a subspace of <m>M_{2 \times 2}</m>.
@@ -243,7 +250,7 @@ by doing the following:
 
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>W</m> be a subspace of a vector space <m>V</m>.  How are <m>\vspan W</m> and <m>W</m> related?

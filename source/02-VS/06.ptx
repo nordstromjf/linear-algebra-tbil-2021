@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS6" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Identifying a Basis (VS6)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/06.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <observation>
     <statement>
@@ -82,7 +89,7 @@
 
 
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <statement>
         <p>
   Label each of the sets <m>A,B,C,D,E</m> as
@@ -151,7 +158,7 @@
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   If <m>\{\vec v_1,\vec v_2,\vec v_3,\vec v_4\}</m> is a basis for

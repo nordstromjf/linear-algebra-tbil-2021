@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Vector Spaces (VS1)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/01.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <observation>
     <statement>
@@ -23,7 +30,7 @@ also hold for Euclidean vectors with multiple components:
     </statement>
 </observation>
 
-<activity tbil-time='20'>
+<activity estimated-time='20'>
     <statement>
     <p>
 Consider each of the following properties of the real numbers
@@ -253,7 +260,7 @@ The space of <m>m \times n</m> <term>matrices</term>
   </ul>
 </remark>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
   Consider the set <m>V=\setBuilder{(x,y)}{y=e^x}</m>.
@@ -397,7 +404,7 @@ The space of <m>m \times n</m> <term>matrices</term>
 
 
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
   Let <m>V=\setBuilder{(x,y)}{x,y\in\IR}</m> have operations defined by
@@ -428,7 +435,7 @@ The space of <m>m \times n</m> <term>matrices</term>
   </task>
 </activity>
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
   Let <m>V=\setBuilder{(x,y)}{x,y\in\IR}</m> have operations defined by

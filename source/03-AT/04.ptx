@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="AT4" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Injective and Surjective Linear Maps (AT4)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/04.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 
 <definition>
@@ -62,7 +69,7 @@ distinct vectors to the same place.  More precisely, <m>T</m> is injective if
     </statement>
 </definition>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by
@@ -111,7 +118,7 @@ Is <m>T</m> injective?
     </statement>
 </activity>
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
         <p>
 Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
@@ -226,7 +233,7 @@ Let <m>T: V \rightarrow W</m> be a linear transformation.
     </statement>
 </definition>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
 Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
@@ -276,7 +283,7 @@ can never equal
     </statement>
 </activity>
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by
@@ -339,7 +346,7 @@ has a pivot in each row.
     </statement>
 </observation>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: V \rightarrow W</m> be a linear transformation where
@@ -411,7 +418,7 @@ recognized by its <term>trivial</term> kernel.
     </statement>
 </fact>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: V \rightarrow \IR^5</m> be a linear transformation where
@@ -510,7 +517,7 @@ recognized by its identical codomain and image.
     </statement>
 </fact>
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <statement>
         <p>
 Let <m>T: \IR^n \rightarrow \IR^m</m> be a linear map with standard matrix <m>A</m>.
@@ -555,7 +562,7 @@ one group that means <m>T</m> is <em>injective</em>, and one group that means
     </statement>
 </observation>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
   What can you conclude about the linear map 
@@ -579,7 +586,7 @@ one group that means <m>T</m> is <em>injective</em>, and one group that means
     </statement>
 </activity>
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
         <p>
   What can you conclude about the linear map <m>T:\IR^3\to\IR^2</m> with standard matrix 
@@ -676,7 +683,7 @@ one group that means <m>T</m> is <em>injective</em>, and one group that means
 </fact>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
 Suppose <m>T: \IR^n \rightarrow \IR^4</m> with standard matrix 
@@ -707,7 +714,7 @@ What is <m>\RREF A</m>?
 </activity>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^n \rightarrow \IR^n</m> be a bijective linear map with
@@ -734,7 +741,7 @@ for each <m>\vec b \in \IR^n</m>.
     </statement>
 </observation>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^3</m> be given by the standard matrix
@@ -758,7 +765,7 @@ Which of the following must be true?
 <input>rref([2,1,-1; 4,1,1; 6,2,1])</input>
 </sage>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^3</m> be given by
@@ -782,7 +789,7 @@ Which of the following must be true?
 <input>rref([2,1,-1; 4,1,1; 6,2,0])</input>
 </sage>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
 Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
@@ -806,7 +813,7 @@ Which of the following must be true?
 <input>rref([2,3;1,-1;1,3])</input>
 </sage>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by

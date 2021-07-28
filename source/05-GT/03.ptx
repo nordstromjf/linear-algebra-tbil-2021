@@ -1,8 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="GT3" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Eigenvalues and Characteristic Polynomials (GT3)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/03.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
   An invertible matrix <m>M</m> and its inverse <m>M^{-1}</m> are given below:
@@ -127,7 +134,7 @@ and we call this <m>\lambda</m> an <term>eigenvalue</term> of <m>A</m>.
     </statement>
 </definition>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Finding the eigenvalues <m>\lambda</m> that satisfy
@@ -204,7 +211,7 @@ and its eigenvalues are the solutions to <m>\lambda^2-5\lambda-2=0</m>.
     </statement>
 </definition>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Let <m>A = \left[\begin{array}{cc} 5 &amp; 2 \\ -3 &amp; -2 \end{array}\right]</m>.
@@ -222,7 +229,7 @@ Set this characteristic polynomial equal to zero and factor to determine the eig
 </task>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   Find all the eigenvalues for the matrix
@@ -231,7 +238,7 @@ Set this characteristic polynomial equal to zero and factor to determine the eig
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
         <statement>
     <p>
   Find all the eigenvalues for the matrix
@@ -240,7 +247,7 @@ Set this characteristic polynomial equal to zero and factor to determine the eig
         </statement>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Find all the eigenvalues for the matrix

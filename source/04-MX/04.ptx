@@ -1,10 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="MX4" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>NEW Solving Systems with Matrix Inverses (MX4)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/04.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
             TODO

@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="AT1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Linear Transformations (AT1)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/01.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <definition>
     <statement>
@@ -192,7 +199,7 @@ are not linear combinations (even though <m>x+y</m> is):
     </statement>
 </fact>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   Let <m>D:\P\to\P</m>
@@ -229,7 +236,7 @@ are not linear combinations (even though <m>x+y</m> is):
 </activity>
 
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let the polynomial maps <m>S: \P_4 \rightarrow \P_3</m>
@@ -302,7 +309,7 @@ space is or is not a subspace.
     </statement>
 </observation>
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
 Continue to consider <m>S: \P_4 \rightarrow \P_3</m> defined by
@@ -330,7 +337,7 @@ Continue to consider <m>S: \P_4 \rightarrow \P_3</m> defined by
 </activity>
 
 
-<activity tbil-time='20'>
+<activity estimated-time='20'>
     <introduction>
         <p>
 Let polynomial maps <m>S: \P \rightarrow \P</m>

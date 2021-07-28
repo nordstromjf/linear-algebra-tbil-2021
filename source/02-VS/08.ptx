@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS8" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Polynomial and Matrix Spaces (VS8)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/08.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <fact>
     <statement>
@@ -42,7 +49,7 @@
     </statement>
 </observation>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Suppose <m>W</m> is a subspace of <m>\P_8</m>, and you know that
@@ -69,7 +76,7 @@ What can you conclude about <m>W</m>?
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Suppose <m>W</m> is a subspace of <m>\P_8</m>, and you know that

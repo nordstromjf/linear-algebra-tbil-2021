@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="MX1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Matrices and Multiplication (MX1)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/01.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <observation>
     <statement>
@@ -25,7 +32,7 @@ Recall that for a vector, <m>\vec{v} \in \IR^n</m>, the composition is computed 
 </observation>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by the <m>2\times 3</m> standard matrix
@@ -54,7 +61,7 @@ What are the domain and codomain of the composition map <m>S \circ T</m>?
 </activity>
 
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
     <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by the <m>2\times 3</m>
@@ -83,7 +90,7 @@ What size will the standard matrix of <m>S \circ T:\IR^3\to\IR^4</m> be?
     </statement>
 </activity>
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by the <m>2\times 3</m> standard matrix
@@ -169,7 +176,7 @@ For the previous activity,
 
 
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
 Let <m>S: \IR^3 \rightarrow \IR^2</m> be given by the matrix 
@@ -196,7 +203,7 @@ Find the standard matrix <m>BA</m> of <m>T \circ S</m>.
 </task>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Consider the following three matrices.
@@ -223,7 +230,7 @@ Compute it.
 </task>
 </activity>
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
 Let <m>B=\left[\begin{array}{ccc} 3 &amp; -4 &amp; 0 \\ 2 &amp; 0 &amp; -1 \\ 0 &amp; -3 &amp; 3 \end{array}\right]</m>, 

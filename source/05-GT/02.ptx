@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="GT2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Computing Determinants (GT2)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/02.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <remark>
     <p>
@@ -13,7 +20,7 @@ into the determinant of a smaller matrix.
     </p>
 </remark>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
   The following image illustrates the transformation of the unit cube
@@ -110,7 +117,7 @@ a <m>1</m> on the main diagonal.
 </fact>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
   Remove an appropriate row and column of  
@@ -119,7 +126,7 @@ a <m>1</m> on the main diagonal.
         </p></statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
   Simplify
@@ -133,7 +140,7 @@ a <m>1</m> on the main diagonal.
     </p></task>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
   Simplify
@@ -204,7 +211,7 @@ matrix to a determinant of a smaller matrix.
     </statement>
 </observation>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
     <p>
 Rewrite <me>\det \left[\begin{array}{cccc} 2 &amp; 1 &amp; -2 &amp; 1 \\ 3 &amp; 0 &amp; 1 &amp; 4
@@ -214,7 +221,7 @@ as a multiple of a determinant of a <m>3\times3</m> matrix.
 </activity>
 
 
-<activity tbil-time='20'>
+<activity estimated-time='20'>
     <statement>
         <p>
   Compute
@@ -314,7 +321,7 @@ So this is why we either use Laplace expansion or row/column operations directly
     </statement>
 </observation>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
 Based on the previous activities, which technique is easier for computing determinants?
@@ -332,7 +339,7 @@ Based on the previous activities, which technique is easier for computing determ
     </statement>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Use your preferred technique to compute 

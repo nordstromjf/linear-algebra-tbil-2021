@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Linear Combinations (VS2)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/02.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <definition>
     <statement>
@@ -53,7 +60,7 @@
     </statement>
 </definition>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Consider <m>\vspan\left\{\left[\begin{array}{c}1\\2\end{array}\right]\right\}</m>.
@@ -86,7 +93,7 @@
 
 
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Consider <m>\vspan\left\{\left[\begin{array}{c}1\\2\end{array}\right],
@@ -122,7 +129,7 @@
   </task>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
     Sketch a representation of all the vectors belonging to
@@ -134,7 +141,7 @@
 </activity>
 
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <introduction>
         <p>
   The vector
@@ -218,7 +225,7 @@ The following are all equivalent statements:
         </statement>
     </observation>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Determine if
@@ -236,7 +243,7 @@ The following are all equivalent statements:
 
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   Determine if
@@ -251,7 +258,7 @@ The following are all equivalent statements:
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Does the third-degree polynomial <m>3y^3-2y^2+y+5</m> in <m>\P_3</m> belong to
@@ -273,7 +280,7 @@ The following are all equivalent statements:
 
 <sage language="octave">
 </sage>
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   Does the polynomial  <m>x^2+x+1</m> belong to
@@ -282,7 +289,7 @@ The following are all equivalent statements:
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
   Does the matrix <m>\left[\begin{array}{cc}3&amp;-2\\1&amp;5\end{array}\right]</m> belong to

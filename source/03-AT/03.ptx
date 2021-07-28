@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="AT3" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Image and Kernel (AT3)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/03.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
@@ -74,7 +81,7 @@ is an important subspace of <m>V</m> defined by
 </definition>
 
     
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by
@@ -114,7 +121,7 @@ the set of all vectors that transform into <m>\vec 0</m>?
     </statement>
 </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be the linear transformation given by the
@@ -142,7 +149,7 @@ for the kernel of <m>T</m>.
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>T: \IR^4 \rightarrow \IR^3</m> be the linear transformation given by 
@@ -159,7 +166,7 @@ Find a basis for the kernel of <m>T</m>.
 
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^2 \rightarrow \IR^3</m> be given by
@@ -268,7 +275,7 @@ right example's image is a planar subspace of <m>\IR^3</m>.
         </figure>
     </statement>
 </definition>
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^2</m> be given by
@@ -305,7 +312,7 @@ the set of all vectors that are the result of using <m>T</m> to transform
 </activity>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^4 \rightarrow \IR^3</m> be the linear transformation given by the
@@ -413,7 +420,7 @@ for the image.
 </fact>
 
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^4</m> be the linear transformation given by the
@@ -432,7 +439,7 @@ Find a basis for the kernel and a basis for the image of <m>T</m>.
 <sage language="octave">
 </sage>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^n \rightarrow \IR^m</m> be a linear transformation with standard matrix <m>A</m>.
@@ -463,7 +470,7 @@ Which of the following is equal to the dimension of the kernel of <m>T</m>?
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Let <m>T: \IR^n \rightarrow \IR^m</m> be a linear transformation with standard matrix <m>A</m>.
@@ -510,7 +517,7 @@ The dimension of the image is called the <term>rank</term> of <m>T</m> (or <m>A<
     </statement>
 </observation>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>T: \IR^3 \rightarrow \IR^4</m> be the linear transformation given by the

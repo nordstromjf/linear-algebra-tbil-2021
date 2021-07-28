@@ -8,7 +8,7 @@
             </li>
         </ul>
     </objectives>
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Free browser-based technologies for mathematical computation
@@ -38,7 +38,7 @@ are available online.
     </statement>
 </activity>
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
     <p>
 In the HTML version of this text, code cells are often embedded for your convenience
@@ -68,7 +68,7 @@ than floating-point approximations.
     </p>
 </remark>-->
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Consider the following system of equations.
@@ -118,7 +118,7 @@ to the original system. Then find its solution set.
 <input>rref([3,-2,13,6;2,-2,10,2;-1,3,-6,11])</input>
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
     <p>
 Consider the vector equation
@@ -162,7 +162,7 @@ to the original system. Then find its solution set.
 <input>rref([3,-2,13,6;2,-2,10,2;-1,0,-3,1])</input>
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Consider the following linear system.
@@ -191,7 +191,7 @@ to the original system. Then find its solution set.
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
 Consider the simple linear system equivalent to the system
@@ -269,7 +269,7 @@ variables, and then solve for the bound variables.
     </statement>
 </definition>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Find the solution set for the system

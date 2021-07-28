@@ -1,8 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="GT1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Row Operations and Determinants (GT1)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/01.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
 The image below illustrates how the linear transformation
@@ -38,7 +45,7 @@ What is the area of the transformed unit square?
 </activity>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
 The image below illustrates how the linear transformation
@@ -204,7 +211,7 @@ In order to figure out how to compute it, we first figure out the properties it 
 </remark>
 
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
         <p>
 The transformation of the unit square by the
@@ -241,7 +248,7 @@ area of the transformed unit square shown here?
     </statement>
 </activity>
 
-<activity tbil-time='2'>
+<activity estimated-time='2'>
     <statement>
         <p>
 The transformation of the unit square by the
@@ -277,7 +284,7 @@ the area of the transformed unit square shown here?
 </activity>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 The transformations of the unit square by the
@@ -317,7 +324,7 @@ Describe the value of <m>\det([c\vec{v}\hspace{0.5em} \vec{w}])</m>.
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 The transformations of unit squares by the
@@ -554,7 +561,7 @@ may be verified by adding and subtracting columns.
     </statement>
 </fact>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   The transformation given by the standard matrix <m>A</m> scales areas by
@@ -709,7 +716,7 @@ by manipulating columns to reduce each matrix to the identity:
     </statement>
 </fact>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Consider the row operation <m>R_1+4R_3\to R_1</m> applied as follows to show
@@ -733,7 +740,7 @@ A=\left[\begin{array}{cccc}1&amp;2&amp;3 &amp; 4\\5&amp;6 &amp; 7 &amp; 8\\9 &am
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Consider the row operation <m>R_1\leftrightarrow R_3</m> applied as follows to show
@@ -753,7 +760,7 @@ A=\left[\begin{array}{cccc}1&amp;2&amp;3&amp;4\\5&amp;6&amp;7&amp;8\\9&amp;10&am
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Consider the row operation <m>3R_2\to R_2</m> applied as follows to show

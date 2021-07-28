@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="MX2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Row Operations as Matrix Multiplication (MX2)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/02.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
     <p>
 Let <m>A=\left[\begin{array}{ccc} 2 &amp; 7 &amp; -1 \\ 0 &amp; 3 &amp; 2 \\ 1 &amp; 1 &amp; -1 \end{array}\right]</m>.
@@ -52,7 +59,7 @@ It has a <m>1</m> on each diagonal element and a <m>0</m> in every other positio
     </statement>
 </fact>
 
-<activity tbil-time='20'>
+<activity estimated-time='20'>
     <introduction>
         <p>
 Tweaking the identity matrix slightly allows us to write row operations
@@ -146,7 +153,7 @@ for some sequence of matrices <m>R_1,R_2,\dots,R_k</m>.
     </statement>
 </fact>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Consider the two row operations 

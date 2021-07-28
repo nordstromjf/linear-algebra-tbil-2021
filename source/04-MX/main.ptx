@@ -1,11 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <chapter xml:id="MX" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Matrices (MX)</title>
-    <objectives>
-        <ul>
-            <xi:include href="outcomes.ptx"/>
-        </ul>
-    </objectives>
+    <xi:include href="outcomes/main.ptx"/>
     <xi:include href="readiness.ptx"/>
     <xi:include href="01.ptx"/>
     <xi:include href="02.ptx"/>

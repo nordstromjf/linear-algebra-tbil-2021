@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS7" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Subspace Basis and Dimension (VS7)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/07.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <observation>
     <statement>
@@ -33,7 +40,7 @@ the planar subspace.
     </statement>
 </observation>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Consider the subspace of <m>\IR^4</m> given by <m>W=\vspan\left\{
@@ -114,7 +121,7 @@ the planar subspace.
     </statement>
 </fact>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>W</m> be the subspace of <m>\IR^4</m> given by
@@ -132,7 +139,7 @@ Let <m>W</m> be the subspace of <m>\IR^4</m> given by
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>W</m> be the subspace of <m>\P_3</m> given by
@@ -145,7 +152,7 @@ Let <m>W</m> be the subspace of <m>\P_3</m> given by
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
 Let <m>W</m> be the subspace of <m>M_{2,2}</m> given by
@@ -163,7 +170,7 @@ Let <m>W</m> be the subspace of <m>M_{2,2}</m> given by
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Let
@@ -285,7 +292,7 @@ Let <m>W</m> be the subspace of <m>M_{2,2}</m> given by
     </statement>
 </definition>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Find the dimension of each subspace of <m>\IR^4</m> by finding

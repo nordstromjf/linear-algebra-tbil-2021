@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="AT2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Standard Matrices (AT2)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/02.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 <remark>
     <p>
@@ -27,7 +34,7 @@ can be applied before or after the transformation without affecting the result.
     </p>
 </remark>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Suppose <m>T: \IR^3 \rightarrow \IR^2</m> is a linear map, and you know
@@ -57,7 +64,7 @@ What is <m>T\left(\left[\begin{array}{c} 3 \\ 0 \\ 0 \end{array}\right]\right)</
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Suppose <m>T: \IR^3 \rightarrow \IR^2</m> is a linear map, and you know
@@ -99,7 +106,7 @@ What is <m>T\left(\left[\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right]\right)</
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Suppose <m>T: \IR^3 \rightarrow \IR^2</m> is a linear map, and you know
@@ -141,7 +148,7 @@ What is <m>T\left(\left[\begin{array}{c} -2 \\ 0 \\ -3 \end{array}\right]\right)
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Suppose <m>T: \IR^3 \rightarrow \IR^2</m> is a linear map, and you know
@@ -248,7 +255,7 @@ Then the standard matrix corresponding to <m>T</m> is
     </statement>
 </definition>
 
-<activity tbil-time='3'>
+<activity estimated-time='3'>
     <statement>
         <p>
   Let <m>T: \IR^4 \rightarrow \IR^3</m> be the linear transformation given by
@@ -274,7 +281,7 @@ Write the standard matrix <m>[T(\vec e_1) \,\cdots\, T(\vec e_n)]</m> for <m>T</
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
   Let <m>T: \IR^3 \rightarrow \IR^2</m> be the linear transformation given by
@@ -320,7 +327,7 @@ Find the standard matrix for <m>T</m>.
     </statement>
 </fact>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
   Let <m>T: \IR^3 \rightarrow \IR^3</m> be the linear transformation given by the standard matrix
@@ -342,7 +349,7 @@ Compute <m>T\left(\left[\begin{array}{c} x\\ y \\ z \end{array}\right] \right) <
 </activity>
 
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <statement>
     
  <introduction> <p>Compute the following linear transformations of vectors given their

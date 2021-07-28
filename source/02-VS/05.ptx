@@ -1,8 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="VS5" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Linear Independence (VS5)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/05.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Consider the two sets
@@ -62,7 +69,7 @@
         </p>
     </statement>
 </definition>
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
     <p>Begin with 3 vectors in <m>\IR^3</m>
         <me>\vec v_1=\left[\begin{array}{c}1 \\ 0 \\ 0\end{array}\right],
@@ -87,7 +94,7 @@
         </task>
     </activity>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
 	<p>
   Let <m>\vec{v}_1,\vec{v}_2,\vec{v}_3 </m> be vectors in <m>\mathbb R^n</m>.
@@ -126,7 +133,7 @@
     </statement>
 </fact>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <statement>
         <p>
   Find
@@ -197,7 +204,7 @@
     </statement>
 </observation>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <introduction>
         <p>
   Consider whether the set of Euclidean vectors <m>\left\{
@@ -223,7 +230,7 @@ Use the solution to this question to answer the original question.
 <sage language="octave">
 </sage>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Consider whether the set of polynomials <m>\left\{
@@ -246,7 +253,7 @@ Use the solution to this question to answer the original question.
 <sage language="octave">
 </sage>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 What is the largest number of <m>\IR^4</m> vectors that can form a linearly independent set?
@@ -276,7 +283,7 @@ What is the largest number of <m>\IR^4</m> vectors that can form a linearly inde
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 What is the largest number of 
@@ -308,7 +315,7 @@ vectors that can form a linearly independent set?
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 What is the largest number of 

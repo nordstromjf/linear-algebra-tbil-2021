@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <section xml:id="MX3" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>The Inverse of a Matrix (MX3)</title>
+    <objectives>
+        <ul>
+            <li>
+                <xi:include href="outcomes/03.ptx"/>
+            </li>
+        </ul>
+    </objectives>
 
 
-<activity tbil-time='15'>
+<activity estimated-time='15'>
     <statement>
         <p>
 Let <m>T: \IR^n \rightarrow \IR^m</m> be a linear map with standard matrix <m>A</m>.
@@ -34,7 +41,7 @@ and a group that means <m>T</m> is <em>bijective</em>.
     </statement>
 </activity>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   Let <m>T: \IR^3 \rightarrow \IR^3</m> be the linear transformation given by the standard matrix
@@ -71,7 +78,7 @@ and a group that means <m>T</m> is <em>bijective</em>.
 </definition>
 
 
-<activity tbil-time='20'>
+<activity estimated-time='20'>
     <introduction>
         <p>
   Let <m>T: \IR^3 \rightarrow \IR^3</m> be the linear transformation given by the standard matrix
@@ -127,7 +134,7 @@ by row reducing the matrix <m>[A\,|\,I]</m> at once.
 </observation>
 
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
   Find the inverse <m>A^{-1}</m> of the matrix
@@ -140,7 +147,7 @@ by row reducing the matrix <m>[A\,|\,I]</m> at once.
 <sage language="octave">
 </sage>
 
-<activity tbil-time='5'>
+<activity estimated-time='5'>
     <statement>
         <p>
 Is the matrix <m>\left[\begin{array}{ccc} 2 &amp; 3 &amp; 1 \\ -1 &amp; -4 &amp; 2 \\ 0 &amp; -5 &amp; 5 \end{array}\right]</m> invertible? Give a reason for your answer.
@@ -158,7 +165,7 @@ Is the matrix <m>\left[\begin{array}{ccc} 2 &amp; 3 &amp; 1 \\ -1 &amp; -4 &amp;
     </statement>
 </observation>
 
-<activity tbil-time='10'>
+<activity estimated-time='10'>
     <introduction>
         <p>
   Let <m>T:\IR^2\to\IR^2</m> be the bijective linear map defined by
