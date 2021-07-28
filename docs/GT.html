@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-26T18:43:08Z       *-->
+<!--*       on 2021-07-28T15:25:55Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -155,7 +155,10 @@
 <div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
 <nav id="toc"><ul>
 <li class="link frontmatter">
-<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="colophon.html" data-scroll="colophon">Colophon</a></li></ul>
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon.html" data-scroll="colophon">Colophon</a></li>
+<li><a href="slideshow-link.html" data-scroll="slideshow-link">Slideshow</a></li>
+</ul>
 </li>
 <li class="link">
 <a href="LE.html" data-scroll="LE"><span class="codenumber">1</span> <span class="title">Systems of Linear Equations (LE)</span></a><ul>
@@ -233,40 +236,41 @@
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="chapter" id="GT"><h2 class="heading">
 <span class="type">Chapter</span> <span class="codenumber">5</span> <span class="title">Geometric Properties of Linear Maps (GT)</span>
 </h2>
-<article class="objectives goal-like" id="objectives-9"><h6 class="heading"><span class="type">Learning Outcomes</span></h6>
-<ul class="disc"><li id="li-343">
-<p id="p-740">G: How can we understand linear maps geometrically?</p>
-<ul class="circle">
-<li id="li-344"><p id="p-741">G1: I can describe how a row operation affects the determinant of a matrix.</p></li>
-<li id="li-345"><p id="p-742">G2: I can compute the determinant of a \(4\times 4\) matrix.</p></li>
-<li id="li-346"><p id="p-743">G3: I can find the eigenvalues of a \(2\times 2\) matrix.</p></li>
-<li id="li-347"><p id="p-744">G4: I can find a basis for the eigenspace of a \(4\times 4\) matrix associated with a given eigenvalue.</p></li>
-</ul>
-</li></ul></article><section class="introduction" id="GT-intro"><h6 class="heading">Readiness Assurance.<span></span>
-</h6>
-<p id="p-745">Before beginning this chapter, you should be able to...</p>
+<article class="objectives goal-like" id="objectives-26"><h6 class="heading"><span class="type">Learning Outcomes</span></h6>
+<div class="introduction" id="introduction-51">
+<p id="p-762">What is a vector space?</p>
+<p id="p-763">By the end of this chapter, you should be able to...</p>
+</div>
+<ol class="decimal">
+<li id="li-358"><p id="p-764">Describe how a row operation affects the determinant of a matrix.</p></li>
+<li id="li-359"><p id="p-765">Compute the determinant of a \(4\times 4\) matrix.</p></li>
+<li id="li-360"><p id="p-766">Find the eigenvalues of a \(2\times 2\) matrix.</p></li>
+<li id="li-361"><p id="p-767">Find a basis for the eigenspace of a \(4\times 4\) matrix associated with a given eigenvalue.</p></li>
+<li id="li-362"><p id="p-768">TODO DIAGONALIZATION OUTCOME</p></li>
+</ol></article><section class="introduction" id="GT-intro"><section class="paragraphs" id="GT-readiness"><h5 class="heading"><span class="title">Readiness Assurance.</span></h5>
+<p id="p-769">Before beginning this chapter, you should be able to...</p>
 <ol class="lower-alpha">
-<li id="li-348">
-<p id="p-746">Calculate the area of a parallelogram.</p>
-<ul class="disc"><li id="li-349"><p id="p-747">Review: <a class="external" href="http://bit.ly/2BO5iWx" target="_blank">Khan Academy</a></p></li></ul>
+<li id="li-363">
+<p id="p-770">Calculate the area of a parallelogram.</p>
+<ul class="disc"><li id="li-364"><p id="p-771">Review: <a class="external" href="http://bit.ly/2BO5iWx" target="_blank">Khan Academy</a></p></li></ul>
 </li>
-<li id="li-350">
-<p id="p-748">Recall and use the definition of a linear transformation</p>
-<ul class="disc"><li id="li-351"><p id="p-749">Review: <a href="AT1.html" class="internal" title="Section 3.1: Linear Transformations (AT1)">Section 3.1</a></p></li></ul>
+<li id="li-365">
+<p id="p-772">Recall and use the definition of a linear transformation</p>
+<ul class="disc"><li id="li-366"><p id="p-773">Review: <a href="AT1.html" class="internal" title="Section 3.1: Linear Transformations (AT1)">Section 3.1</a></p></li></ul>
 </li>
-<li id="li-352">
-<p id="p-750">Find the matrix corresponding to a linear transformation of Euclidean spaces</p>
-<ul class="disc"><li id="li-353"><p id="p-751">Review: <a href="AT2.html" class="internal" title="Section 3.2: Standard Matrices (AT2)">Section 3.2</a></p></li></ul>
+<li id="li-367">
+<p id="p-774">Find the matrix corresponding to a linear transformation of Euclidean spaces</p>
+<ul class="disc"><li id="li-368"><p id="p-775">Review: <a href="AT2.html" class="internal" title="Section 3.2: Standard Matrices (AT2)">Section 3.2</a></p></li></ul>
 </li>
-<li id="li-354">
-<p id="p-752">Find all roots of quadratic polynomials (including complex ones).</p>
-<ul class="disc"><li id="li-355"><p id="p-753">Review: <a class="external" href="http://bit.ly/1XjfbV2" target="_blank">Khan Academy</a>, <a class="external" href="https://youtu.be/Aa-v1EK7DR4" target="_blank">YouTube (1)</a>, <a class="external" href="https://www.youtube.com/watch?v=2yBhDsNE0w" target="_blank">YouTube (2)</a></p></li></ul>
+<li id="li-369">
+<p id="p-776">Find all roots of quadratic polynomials (including complex ones).</p>
+<ul class="disc"><li id="li-370"><p id="p-777">Review: <a class="external" href="http://bit.ly/1XjfbV2" target="_blank">Khan Academy</a>, <a class="external" href="https://youtu.be/Aa-v1EK7DR4" target="_blank">YouTube (1)</a>, <a class="external" href="https://www.youtube.com/watch?v=2yBhDsNE0w" target="_blank">YouTube (2)</a></p></li></ul>
 </li>
-<li id="li-356">
-<p id="p-754">Interpret the statement “\(A\) is an invertible matrix” in many equivalent ways in different contexts.</p>
-<ul class="disc"><li id="li-357"><p id="p-755">Review: <a href="MX3.html" class="internal" title="Section 4.3: The Inverse of a Matrix (MX3)">Section 4.3</a></p></li></ul>
+<li id="li-371">
+<p id="p-778">Interpret the statement “\(A\) is an invertible matrix” in many equivalent ways in different contexts.</p>
+<ul class="disc"><li id="li-372"><p id="p-779">Review: <a href="MX3.html" class="internal" title="Section 4.3: The Inverse of a Matrix (MX3)">Section 4.3</a></p></li></ul>
 </li>
-</ol></section><nav class="summary-links"><ul>
+</ol></section></section><nav class="summary-links"><ul>
 <li><a href="GT1.html"><span class="codenumber">5.1</span> <span class="title">Row Operations and Determinants (GT1)</span></a></li>
 <li><a href="GT2.html"><span class="codenumber">5.2</span> <span class="title">Computing Determinants (GT2)</span></a></li>
 <li><a href="GT3.html"><span class="codenumber">5.3</span> <span class="title">Eigenvalues and Characteristic Polynomials (GT3)</span></a></li>

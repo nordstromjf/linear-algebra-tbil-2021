@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-26T18:43:05Z       *-->
+<!--*       on 2021-07-28T15:25:52Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -155,7 +155,10 @@
 <div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
 <nav id="toc"><ul>
 <li class="link frontmatter">
-<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul><li><a href="colophon.html" data-scroll="colophon">Colophon</a></li></ul>
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon.html" data-scroll="colophon">Colophon</a></li>
+<li><a href="slideshow-link.html" data-scroll="slideshow-link">Slideshow</a></li>
+</ul>
 </li>
 <li class="link">
 <a href="LE.html" data-scroll="LE"><span class="codenumber">1</span> <span class="title">Systems of Linear Equations (LE)</span></a><ul>
@@ -233,45 +236,46 @@
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="VS3"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">2.3</span> <span class="title">Spanning Sets (VS3)</span>
 </h2>
-<section class="subsection" id="subsection-7"><h3 class="heading hide-type">
+<article class="objectives goal-like" id="objectives-9"><h6 class="heading"><span class="type">Learning Outcomes</span></h6>
+<ul class="disc"><li id="li-116"><p id="p-245">Determine if a set of Euclidean vectors spans \(\IR^n\) by solving appropriate vector equations.</p></li></ul></article><section class="subsection" id="subsection-7"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">2.3.1</span> <span class="title">Activities</span>
 </h3>
 <article class="observation remark-like" id="observation-7"><h6 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="period">.</span>
 </h6>
-<p id="p-241">Any single non-zero vector/number \(x\) in \(\IR^1\) spans \(\IR^1\text{,}\) since \(\IR^1=\setBuilder{cx}{c\in\IR}\text{.}\)</p>
+<p id="p-246">Any single non-zero vector/number \(x\) in \(\IR^1\) spans \(\IR^1\text{,}\) since \(\IR^1=\setBuilder{cx}{c\in\IR}\text{.}\)</p>
 <figure class="figure figure-like" id="figure-7"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-1.svg" role="img" class="contained" alt=""></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.2<span class="period">.</span></span><span class="space"> </span>An \(\IR^1\) vector</figcaption></figure></article><article class="activity project-like" id="activity-39"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.3</span><span class="period">.</span>
 </h6>
-<p id="p-242">How many vectors are required to span \(\IR^2\text{?}\) Sketch a drawing in the \(xy\) plane to support your answer.</p>
+<p id="p-247">How many vectors are required to span \(\IR^2\text{?}\) Sketch a drawing in the \(xy\) plane to support your answer.</p>
 <figure class="figure figure-like" id="figure-8"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-2.svg" role="img" class="contained" alt=""></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.4<span class="period">.</span></span><span class="space"> </span>The \(xy\) plane \(\IR^2\)</figcaption></figure><ol class="lower-alpha">
-<li id="li-115"><p id="p-243">\(\displaystyle 1\)</p></li>
-<li id="li-116"><p id="p-244">\(\displaystyle 2\)</p></li>
-<li id="li-117"><p id="p-245">\(\displaystyle 3\)</p></li>
-<li id="li-118"><p id="p-246">\(\displaystyle 4\)</p></li>
-<li id="li-119"><p id="p-247">Infinitely Many</p></li>
+<li id="li-117"><p id="p-248">\(\displaystyle 1\)</p></li>
+<li id="li-118"><p id="p-249">\(\displaystyle 2\)</p></li>
+<li id="li-119"><p id="p-250">\(\displaystyle 3\)</p></li>
+<li id="li-120"><p id="p-251">\(\displaystyle 4\)</p></li>
+<li id="li-121"><p id="p-252">Infinitely Many</p></li>
 </ol></article><article class="activity project-like" id="activity-40"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.5</span><span class="period">.</span>
 </h6>
-<p id="p-248">How many vectors are required to span \(\IR^3\text{?}\)</p>
+<p id="p-253">How many vectors are required to span \(\IR^3\text{?}\)</p>
 <figure class="figure figure-like" id="figure-9"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-3.svg" role="img" class="contained" alt=""></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.6<span class="period">.</span></span><span class="space"> </span>\(\IR^3\) space</figcaption></figure><ol class="lower-alpha">
-<li id="li-120"><p id="p-249">\(\displaystyle 1\)</p></li>
-<li id="li-121"><p id="p-250">\(\displaystyle 2\)</p></li>
-<li id="li-122"><p id="p-251">\(\displaystyle 3\)</p></li>
-<li id="li-123"><p id="p-252">\(\displaystyle 4\)</p></li>
-<li id="li-124"><p id="p-253">Infinitely Many</p></li>
+<li id="li-122"><p id="p-254">\(\displaystyle 1\)</p></li>
+<li id="li-123"><p id="p-255">\(\displaystyle 2\)</p></li>
+<li id="li-124"><p id="p-256">\(\displaystyle 3\)</p></li>
+<li id="li-125"><p id="p-257">\(\displaystyle 4\)</p></li>
+<li id="li-126"><p id="p-258">Infinitely Many</p></li>
 </ol></article><article class="fact theorem-like" id="fact-3"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.3.7</span><span class="period">.</span>
 </h6>
-<p id="p-254">At least \(n\) vectors are required to span \(\IR^n\text{.}\)</p>
+<p id="p-259">At least \(n\) vectors are required to span \(\IR^n\text{.}\)</p>
 <figure class="figure figure-like" id="figure-10"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/image-4.svg" role="img" class="contained" alt=""></div>
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.8<span class="period">.</span></span><span class="space"> </span>Failed attempts to span \(\IR^n\) by \(&lt;n\) vectors</figcaption></figure></article><article class="activity project-like" id="activity-41"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.9</span><span class="period">.</span>
 </h6>
-<p id="p-255">Choose any vector \(\left[\begin{array}{c}\unknown\\\unknown\\\unknown\end{array}\right]\) in \(\IR^3\) that is not in \(\vspan\left\{\left[\begin{array}{c}1\\-1\\0\end{array}\right],
+<p id="p-260">Choose any vector \(\left[\begin{array}{c}\unknown\\\unknown\\\unknown\end{array}\right]\) in \(\IR^3\) that is not in \(\vspan\left\{\left[\begin{array}{c}1\\-1\\0\end{array}\right],
 \left[\begin{array}{c}-2\\0\\1\end{array}\right]\right\}\) by using technology to verify that \(\RREF
 \left[\begin{array}{cc|c}1&amp;-2&amp;\unknown\\-1&amp;0&amp;\unknown\\0&amp;1&amp;\unknown\end{array}\right]
 =
@@ -280,14 +284,14 @@
 <article class="fact theorem-like" id="fact-4"><h6 class="heading">
 <span class="type">Fact</span><span class="space"> </span><span class="codenumber">2.3.10</span><span class="period">.</span>
 </h6>
-<p id="p-256">The set \(\{\vec v_1,\dots,\vec v_m\}\) fails to span all of \(\IR^n\) exactly when the vector equation</p>
+<p id="p-261">The set \(\{\vec v_1,\dots,\vec v_m\}\) fails to span all of \(\IR^n\) exactly when the vector equation</p>
 <div class="displaymath">
 \begin{equation*}
 x_1 \vec{v}_1 + \cdots x_m\vec{v}_m = \vec{w} 
 \end{equation*}
 </div>
 <p class="continuation">is inconsistent for <em class="emphasis">some</em> vector \(\vec{w}\text{.}\)</p>
-<p id="p-257">Note that this happens exactly when \(\RREF[\vec v_1\,\dots\,\vec v_m]\) has a non-pivot row of zeros.</p>
+<p id="p-262">Note that this happens exactly when \(\RREF[\vec v_1\,\dots\,\vec v_m]\) has a non-pivot row of zeros.</p>
 <div class="displaymath">
 \begin{equation*}
 \left[\begin{array}{cc}1&amp;-2\\-1&amp;0\\0&amp;1\end{array}\right]\sim
@@ -304,7 +308,7 @@ x_1 \vec{v}_1 + \cdots x_m\vec{v}_m = \vec{w}
 </div></article><article class="activity project-like" id="activity-42"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.11</span><span class="period">.</span>
 </h6>
-<div class="introduction" id="introduction-19"><p id="p-258">Consider the set of vectors \(S=\left\{
+<div class="introduction" id="introduction-20"><p id="p-263">Consider the set of vectors \(S=\left\{
 \left[\begin{array}{c}2\\3\\0\\-1\end{array}\right],
 \left[\begin{array}{c}1\\-4\\3\\0\end{array}\right],
 \left[\begin{array}{c}1\\7\\-3\\-1\end{array}\right],
@@ -312,13 +316,13 @@ x_1 \vec{v}_1 + \cdots x_m\vec{v}_m = \vec{w}
 \left[\begin{array}{c}3\\13\\7\\16\end{array}\right]
 \right\}\) and the question “Does \(\IR^4=\vspan S\text{?}\)”</p></div>
 <article class="task exercise-like" id="task-35"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-259">Rewrite this question in terms of the solutions to a vector equation.</p></article><article class="task exercise-like" id="task-36"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-260">Answer your new question, and use this to answer the original question.</p></article></article><div class="sagecell-octave" id="sage-12"><script type="text/x-sage"></script></div>
+<p id="p-264">Rewrite this question in terms of the solutions to a vector equation.</p></article><article class="task exercise-like" id="task-36"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-265">Answer your new question, and use this to answer the original question.</p></article></article><div class="sagecell-octave" id="sage-12"><script type="text/x-sage"></script></div>
 <article class="activity project-like" id="activity-43"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.12</span><span class="period">.</span>
 </h6>
-<div class="introduction" id="introduction-20">
-<p id="p-261">Consider the set of third-degree polynomials</p>
+<div class="introduction" id="introduction-21">
+<p id="p-266">Consider the set of third-degree polynomials</p>
 <div class="displaymath">
 \begin{align*}
 S=\{
@@ -332,13 +336,13 @@ S=\{
 <p class="continuation">and the question “Does \(\P_3=\vspan S\text{?}\)”</p>
 </div>
 <article class="task exercise-like" id="task-37"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-262">Rewrite this question to be about the solutions to a polynomial equation.</p></article><article class="task exercise-like" id="task-38"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-263">Answer your new question, and use this to answer the original question.</p></article></article><div class="sagecell-octave" id="sage-13"><script type="text/x-sage"></script></div>
+<p id="p-267">Rewrite this question to be about the solutions to a polynomial equation.</p></article><article class="task exercise-like" id="task-38"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-268">Answer your new question, and use this to answer the original question.</p></article></article><div class="sagecell-octave" id="sage-13"><script type="text/x-sage"></script></div>
 <article class="activity project-like" id="activity-44"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.13</span><span class="period">.</span>
 </h6>
-<div class="introduction" id="introduction-21">
-<p id="p-264">Consider the set of matrices</p>
+<div class="introduction" id="introduction-22">
+<p id="p-269">Consider the set of matrices</p>
 <div class="displaymath">
 \begin{equation*}
 S = \left\{
@@ -351,16 +355,16 @@ S = \left\{
 <p class="continuation">and the question “Does \(M_{2,2} = \vspan S\text{?}\)”</p>
 </div>
 <article class="task exercise-like" id="task-39"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-265">Rewrite this as a question about the solutions to a matrix equation.</p></article><article class="task exercise-like" id="task-40"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-266">Answer your new question, and use this to answer the original question.</p></article></article><div class="sagecell-octave" id="sage-14"><script type="text/x-sage"></script></div>
+<p id="p-270">Rewrite this as a question about the solutions to a matrix equation.</p></article><article class="task exercise-like" id="task-40"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-271">Answer your new question, and use this to answer the original question.</p></article></article><div class="sagecell-octave" id="sage-14"><script type="text/x-sage"></script></div>
 <article class="activity project-like" id="activity-45"><h6 class="heading">
 <span class="type">Activity</span><span class="space"> </span><span class="codenumber">2.3.14</span><span class="period">.</span>
 </h6>
-<p id="p-267">Let \(\vec{v}_1, \vec{v}_2, \vec{v}_3 \in \IR^7\) be three vectors, and suppose \(\vec{w}\) is another vector with \(\vec{w} \in \vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\}\text{.}\) What can you conclude about \(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{?}\)</p>
+<p id="p-272">Let \(\vec{v}_1, \vec{v}_2, \vec{v}_3 \in \IR^7\) be three vectors, and suppose \(\vec{w}\) is another vector with \(\vec{w} \in \vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\}\text{.}\) What can you conclude about \(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{?}\)</p>
 <ol class="lower-alpha">
-<li id="li-125">\(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \) is larger than \(\vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{.}\)</li>
-<li id="li-126">\(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\}  = \vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{.}\)</li>
-<li id="li-127">\(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \) is smaller than \(\vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{.}\)</li>
+<li id="li-127">\(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \) is larger than \(\vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{.}\)</li>
+<li id="li-128">\(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\}  = \vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{.}\)</li>
+<li id="li-129">\(\vspan \left\{ \vec{w}, \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \) is smaller than \(\vspan \left\{ \vec{v}_1, \vec{v}_2, \vec{v}_3 \right\} \text{.}\)</li>
 </ol></article></section><section class="subsection" id="subsection-8"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">2.3.2</span> <span class="title">Videos</span>
 </h3>
@@ -368,7 +372,7 @@ S = \left\{
 <figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.3.15<span class="period">.</span></span><span class="space"> </span>Video example: Determining if a set spans a Euclidean space</figcaption></figure></section><section class="exercises" id="exercises-7"><h3 class="heading hide-type">
 <span class="type">Exercises</span> <span class="codenumber">2.3.3</span> <span class="title">Exercises</span>
 </h3>
-<p id="p-268"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/V3/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
+<p id="p-273"><em class="emphasis">Exercises available at <a class="external" href="https://checkit.clontz.org/#/banks/tbil-la/V3/" target="_blank">checkit.clontz.org</a>.</em></p></section></section></div></main>
 </div>
 </body>
 </html>

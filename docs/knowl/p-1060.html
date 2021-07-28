@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-26T18:43:21Z       *-->
+<!--*       on 2021-07-28T15:26:10Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -15,24 +15,32 @@
 </head>
 <body>
 <h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading"><span class="type">Paragraph</span></h6>
-<p>Consider</p>
+<p>Since the \(y\)-column is a non-pivot column, it is a free variable, so we let \(y=a\text{;}\) then we have</p>
 <div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
-\begin{equation*}
-\left[\begin{array}{c} x_1 \\y_1 \\ z_1 \\ w_1\end{array}\right]
-+\left[\begin{array}{c} x_2 \\y_2 \\ z_2 \\ w_2 \end{array}\right]
-=\left[\begin{array}{c} x_1+x_2 \\y_1+y_2 \\ z_1+z_2 \\w_1+w_2 \end{array}\right]
-.
-\end{equation*}
+\begin{alignat*}{3}
+x&amp;\,+\,&amp;2y&amp;\,\,&amp;  &amp;= 3\\
+&amp;\,\,&amp;y &amp;\,\,&amp; &amp;=a\\
+&amp;\,\,&amp; &amp;\,\,&amp; z&amp;= -1.
+\end{alignat*}
 </div>
-<p class="continuation">To see if \(\vec{v}+\vec{w} \in W\text{,}\) we need to check if \((x_1+x_2)+(y_1+y_2) = 3(z_1+z_2)+2(w_1+w_2)\text{.}\) We compute</p>
+<p class="continuation">and thus</p>
 <div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
 \begin{align*}
-(x_1+x_2)+(y_1+y_2) &amp;= (x_1+y_1)+(x_2+y_2) &amp;\text{by regrouping}\\
-&amp;= (3z_1+2w_1)+(3z_2+2w_2) &amp; \text{since }\\
-&amp;=3(z_1+z_2)+2(w_1+w_2) &amp; \text{by regrouping.}
+x&amp;= 3-2a\\
+y&amp;= a\\
+z&amp;= -1
 \end{align*}
 </div>
-<p class="continuation">Thus \(\vec v+\vec w\in W\text{,}\) so \(W\) is closed under vector addition.</p>
+<p class="continuation">So the solution set is</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\setBuilder{
+\left[\begin{array}{c} 3-2a \\ a \\ -1 \end{array}\right]
+}{
+a \in \IR
+}.
+\end{equation*}
+</div>
 <span class="incontext"><a href="sample-exercises.html#p-1060">in-context</a></span>
 </body>
 </html>
